@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MonogameProject3_Spaceship")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1674067cfc8f5c12c96e90dcbd5901b074f1d88")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+854d109b9f6c441fd59f1f175af98fec0b0a4b85")]
 [assembly: System.Reflection.AssemblyProductAttribute("MonogameProject3_Spaceship")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MonogameProject3_Spaceship")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

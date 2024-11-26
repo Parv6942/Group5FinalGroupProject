@@ -11,14 +11,19 @@ namespace MonogameProject3_Spaceship
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
+        // Texture asserts for the game
         Texture2D shipSprite;
         Texture2D asteroidSprite1;
         Texture2D asteroidSprite2;
         Texture2D asteroidSprite3;
         Texture2D spaceSprite;
+
+        // Font assets for displaying text
         SpriteFont gameFont;
         SpriteFont timerFont;
         SpriteFont scoreFont;
+        
+        // Background music for the game
         Song song;
 
         //variables for the menu
@@ -27,14 +32,18 @@ namespace MonogameProject3_Spaceship
         // Initializes the current game state to the main menu at the start of the game
         private GameState currentGameState = GameState.MainMenu;
 
+        // instance for handling Main Menu and Game Over screens
         private Menu _menu; 
 
+        //  Player-controlled spaceship
         Ship player = new Ship();
+
+        // Asteroids with different speeds
         Asteroid ast1 = new Asteroid(4);
         Asteroid ast2 = new Asteroid(6);
         Asteroid ast3 = new Asteroid(8);
 
-
+        // Flag for resetting asteroid positions when the game ends
         bool setBack = true;
 
 
@@ -45,7 +54,7 @@ namespace MonogameProject3_Spaceship
         //Controller object
         Controller controller = new Controller();
 
-        //Game State
+        //Game State 
         public bool inGame = true;
           
         public Game1()
@@ -55,6 +64,7 @@ namespace MonogameProject3_Spaceship
             IsMouseVisible = true;
         }
 
+        // handles initialize  logic 
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
@@ -72,6 +82,7 @@ namespace MonogameProject3_Spaceship
             base.Initialize();
         }
 
+        // handles loading assets 
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
@@ -89,26 +100,32 @@ namespace MonogameProject3_Spaceship
 
             // Load thse gamefont and spaceSprite into the menu
             _menu = new Menu(gameFont, spaceSprite);
+
+            // Play background music
             MediaPlayer.Play(song);
 
         }
 
+        // handles the menu logic
         protected override void Update(GameTime gameTime)
         {
             //if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
             //    Exit();
 
             // TODO: Add your update logic here
+            // Get the current keyboard state
             KeyboardState keyboardState = Keyboard.GetState();
 
-			//Switch statement
+			//Switch case to handle the current game state
 			switch (currentGameState) 
             {
               case GameState.MainMenu:
+               // Transition to InGame state if Enter is pressed
               if (keyboardState.IsKeyDown(Keys.Enter))
               {
                 currentGameState = GameState.InGame;
               }
+              // Exit the game if Q is pressed
               else if (keyboardState.IsKeyDown(Keys.Q))
               {
                 Exit();
@@ -116,6 +133,7 @@ namespace MonogameProject3_Spaceship
               break;
 
               case GameState.InGame:
+               // Update gameplay logic
               UpdateGamplay(gameTime);
               if (!inGame)
               {
@@ -124,12 +142,14 @@ namespace MonogameProject3_Spaceship
               break;
 
               case GameState.GameOver:
+              // Reset the game and return to mainmenu if R is pressed
               if (keyboardState.IsKeyDown(Keys.R))
               {
                 ResetGame();
                 currentGameState = GameState.MainMenu;
               }
-              else if (keyboardState.IsKeyDown(Keys.Q))
+					// Exit the game if Q is pressed
+			  else if (keyboardState.IsKeyDown(Keys.Q))
               {
                 Exit();
               }
@@ -140,7 +160,7 @@ namespace MonogameProject3_Spaceship
         }
 
 
-        //UpdateGameplay method 
+        //UpdateGameplay handles the ship, asteroid, points gameplay and mechaincs
         private void UpdateGamplay(GameTime gameTime)
         {
 			//3// Move the player along X-axis and Y-axis using Keyboard   
@@ -156,13 +176,15 @@ namespace MonogameProject3_Spaceship
 			// Check for collision
 			if ((controller.didCollisionHappen(player, ast1) || controller.didCollisionHappen(player, ast2) || controller.didCollisionHappen(player, ast3)) && inGame)
 			{
-				controller.playerScore -= 3;
+				controller.playerScore -= 3; // player loses 3 points
 			}
+            // End the game if the timer exceeds 15 seconds or the score drops below 0
 			if (secondsElapsed >= 15 || controller.playerScore < 0)
 			{
 				inGame = false;
 			}
 
+            // Increment score if the player successfully dodges an asteroid
 			if (controller.didShipPast(player, ast1) && ast1.currentOne)
 			{
 				controller.playerScore++;
@@ -180,7 +202,7 @@ namespace MonogameProject3_Spaceship
 			}
 		}
 
-
+        // Draw() hands the menu and display it
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
@@ -189,6 +211,7 @@ namespace MonogameProject3_Spaceship
 
             _spriteBatch.Begin();
 
+            // Draw based on the current game state
             switch (currentGameState)
             {
                 case GameState.MainMenu:
@@ -209,9 +232,10 @@ namespace MonogameProject3_Spaceship
             base.Draw(gameTime);
         }
 
-        //private void DrawGameplay()
+        // DrawGameplay() handles the background and game objects, and displaying timer and score, etc
         private void DrawGameplay()
         {
+            // Draw the background and game objects
 			_spriteBatch.Draw(spaceSprite, new Vector2(0, 0), Color.White);
 			//_spriteBatch.Draw(shipSprite, player.position, Color.White);//without centering the sprite
 			_spriteBatch.Draw(shipSprite, new Vector2(player.position.X - shipSprite.Width / 2, player.position.Y - shipSprite.Height / 2), Color.White);//Using Offset and With Centering the sprite
@@ -219,10 +243,11 @@ namespace MonogameProject3_Spaceship
 			_spriteBatch.Draw(asteroidSprite2, new Vector2(ast2.position.X - Asteroid.radius, ast2.position.Y - Asteroid.radius), Color.White);
 			_spriteBatch.Draw(asteroidSprite3, new Vector2(ast3.position.X - Asteroid.radius, ast3.position.Y - Asteroid.radius), Color.White);
 
-			// Displaying Timer
+			// Displaying Timer and Score
 			_spriteBatch.DrawString(timerFont, "Time: " + secondsElapsed, new Vector2(_graphics.PreferredBackBufferWidth / 2, 30), Color.White);
 			_spriteBatch.DrawString(scoreFont, "Score: " + controller.playerScore, new Vector2(_graphics.PreferredBackBufferWidth / 4, 30), Color.White);
 
+            // Display game-over text if the game ends
 			if (!inGame)
 			{
 				_spriteBatch.DrawString(gameFont, controller.gameEndScript(), new Vector2(_graphics.PreferredBackBufferWidth / 4 - 100, _graphics.PreferredBackBufferHeight / 2), Color.White);
@@ -243,15 +268,16 @@ namespace MonogameProject3_Spaceship
 
 		}
 
-        //private void ResetGame()
-
+        // ResetGame() resets the game
         private void ResetGame()
         {
+            // Reset game variables
             inGame = true;
             controller.playerScore = 0;
             secondsElapsed = 0;
 
-            ast1 = new Asteroid(4);
+			// Reset asteroids
+			ast1 = new Asteroid(4);
             ast2 = new Asteroid(6);
             ast3 = new Asteroid(8);
 
