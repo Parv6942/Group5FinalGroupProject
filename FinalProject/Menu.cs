@@ -41,7 +41,7 @@ namespace MonogameProject3_Spaceship
 				break;
 
 				case GameState.GameOver:
-				spriteBatch.DrawString(font, "Game Over! Press Enter to Return to Menu", new Vector2(400, 250), Color.Red);
+				spriteBatch.DrawString(font, "Game Over! Press R to Restart", new Vector2(400, 250), Color.Red);
 				spriteBatch.DrawString(font, "Press Q to Quit", new Vector2(500,400), Color.White);
 				break;
 			
