@@ -26,7 +26,7 @@ namespace MonogameProject3_Spaceship
         // Background music for the game
         Song song;
 
-        //variables for the menu
+        // variables for the menu
         // use a enum to represent the different states of the game
         public enum GameState { MainMenu, InGame, GameOver, Exit}
         // Initializes the current game state to the main menu at the start of the game
@@ -77,7 +77,7 @@ namespace MonogameProject3_Spaceship
             secondsElapsed = 0;
 
             //Menu related 
-            //currentGameState = GameState.MainMenu;
+           
 
             base.Initialize();
         }

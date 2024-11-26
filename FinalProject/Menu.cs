@@ -5,11 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using static MonogameProject3_Spaceship.Game1;
+// This directive imports the Game1 class memebers (e.g., enums) from the MonogameProject3_Spaceship namespace,
+// allowing direct access to those memebers without needing to specify Game1 (e.g., GameState instead of Game1.GameState).
+using static MonogameProject3_Spaceship.Game1; 
 
 namespace MonogameProject3_Spaceship
 
-{  // this a menu class that handles drawing menu screens
+{  // this a menu class that handles drawing menu screens!
 	public class Menu
 	{
 		// Fields to hold the font and background texture
@@ -29,7 +31,7 @@ namespace MonogameProject3_Spaceship
 			// Draw the background first 
 			spriteBatch.Draw(background, new Rectangle(0, 0, 1200, 900), Color.White);
 
-			// Draw the title
+			// Draw the title second
 			spriteBatch.DrawString(font, "SPACE ADVENTURE", new Vector2(500, 100), Color.Gold);
 
 			// Draw different menu options based on the game state
