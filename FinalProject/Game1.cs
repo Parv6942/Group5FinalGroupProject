@@ -20,6 +20,12 @@ namespace MonogameProject3_Spaceship
         SpriteFont timerFont;
         SpriteFont scoreFont;
         Song song;
+
+        //variables for the menu
+        // use a enum to represent the different states of the game
+        public enum GameState { MainMenu, InGame, GameOver, Exit}
+        // Initializes the current game state to the main menu at the start of the game
+        private GameState currentGameState = GameState.MainMenu;
         
         Ship player = new Ship();
         Asteroid ast1 = new Asteroid(4);
