@@ -195,3 +195,4 @@ C:\Users\willi\Documents\GitHub\Group5FinalGroupProject\FinalProject\obj\Debug\n
 C:\Users\willi\Documents\GitHub\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.pdb
 C:\Users\willi\Documents\GitHub\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.genruntimeconfig.cache
 C:\Users\willi\Documents\GitHub\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\ref\MonogameProject3_Spaceship.dll
+C:\Users\willi\Documents\GitHub\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\Content\GreenSword.xnb
