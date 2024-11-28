@@ -18,6 +18,8 @@ namespace MonogameProject3_Spaceship
         Texture2D asteroidSprite2;
         Texture2D asteroidSprite3;
         Texture2D spaceSprite;
+        Texture2D swordGreen1;
+
 
         // Font assets for displaying text
         SpriteFont gameFont;
@@ -98,6 +100,7 @@ namespace MonogameProject3_Spaceship
             timerFont = Content.Load<SpriteFont>("timerFont");
             scoreFont = Content.Load<SpriteFont>("timerFont");
             song = Content.Load<Song>("amalgam-2170071");
+            swordGreen1 = Content.Load<Texture2D>("GreenSword");
 
             // Load thse gamefont and spaceSprite into the menu
             _menu = new Menu(gameFont, spaceSprite);

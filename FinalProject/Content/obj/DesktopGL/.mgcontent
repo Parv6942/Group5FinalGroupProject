@@ -4,15 +4,17 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/wilam/OneDrive/Desktop/Conestoga/Year 2/Sem 3/Game Prog Data Structure/assignment 3/MonogameProject3_Spaceship (1)/MonogameProject3_Spaceship/Content/amalgam-217007.wav</File>
-    <File>C:/Users/wilam/OneDrive/Desktop/Conestoga/Year 2/Sem 3/Game Prog Data Structure/assignment 3/MonogameProject3_Spaceship (1)/MonogameProject3_Spaceship/Content/amalgam-2170071.mp3</File>
-    <File>C:/Users/wilam/OneDrive/Desktop/Conestoga/Year 2/Sem 3/Game Prog Data Structure/assignment 3/MonogameProject3_Spaceship (1)/MonogameProject3_Spaceship/Content/asteroid.png</File>
-    <File>C:/Users/wilam/OneDrive/Desktop/Conestoga/Year 2/Sem 3/Game Prog Data Structure/assignment 3/MonogameProject3_Spaceship (1)/MonogameProject3_Spaceship/Content/ship.png</File>
-    <File>C:/Users/wilam/OneDrive/Desktop/Conestoga/Year 2/Sem 3/Game Prog Data Structure/assignment 3/MonogameProject3_Spaceship (1)/MonogameProject3_Spaceship/Content/space.png</File>
-    <File>C:/Users/wilam/OneDrive/Desktop/Conestoga/Year 2/Sem 3/Game Prog Data Structure/assignment 3/MonogameProject3_Spaceship (1)/MonogameProject3_Spaceship/Content/spaceFont.spritefont</File>
-    <File>C:/Users/wilam/OneDrive/Desktop/Conestoga/Year 2/Sem 3/Game Prog Data Structure/assignment 3/MonogameProject3_Spaceship (1)/MonogameProject3_Spaceship/Content/timerFont.spritefont</File>
+    <File>C:/Users/willi/Documents/GitHub/Group5FinalGroupProject/FinalProject/Content/amalgam-217007.wav</File>
+    <File>C:/Users/willi/Documents/GitHub/Group5FinalGroupProject/FinalProject/Content/amalgam-2170071.mp3</File>
+    <File>C:/Users/willi/Documents/GitHub/Group5FinalGroupProject/FinalProject/Content/asteroid.png</File>
+    <File>C:/Users/willi/Documents/GitHub/Group5FinalGroupProject/FinalProject/Content/GreenSword.png</File>
+    <File>C:/Users/willi/Documents/GitHub/Group5FinalGroupProject/FinalProject/Content/ship.png</File>
+    <File>C:/Users/willi/Documents/GitHub/Group5FinalGroupProject/FinalProject/Content/space.png</File>
+    <File>C:/Users/willi/Documents/GitHub/Group5FinalGroupProject/FinalProject/Content/spaceFont.spritefont</File>
+    <File>C:/Users/willi/Documents/GitHub/Group5FinalGroupProject/FinalProject/Content/timerFont.spritefont</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
