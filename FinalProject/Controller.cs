@@ -30,11 +30,6 @@ namespace MonogameProject3_Spaceship
         public int updateTime(GameTime gameTime)
         {
             elapsedTime += gameTime.ElapsedGameTime;
-            if (secondsElapsed >= 15 && gameGoing) 
-            {
-                secondsElapsed = 15;
-            }
-
             if (elapsedTime.TotalSeconds >= 1 && gameGoing)
             {
                 secondsElapsed++;
@@ -42,6 +37,12 @@ namespace MonogameProject3_Spaceship
             }
 
             return secondsElapsed; // Return the current seconds count
+        }
+
+        public void restartTimer()
+        {
+            secondsElapsed = 0;
+            elapsedTime = TimeSpan.Zero;
         }
 
         public bool didCollisionHappen(Ship player, Asteroid ast) {

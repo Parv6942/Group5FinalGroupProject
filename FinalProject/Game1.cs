@@ -125,6 +125,7 @@ namespace MonogameProject3_Spaceship
               if (keyboardState.IsKeyDown(Keys.Enter))
               {
                 currentGameState = GameState.InGame;
+                controller.restartTimer();
               }
               // Exit the game if Q is pressed
               else if (keyboardState.IsKeyDown(Keys.Q))
