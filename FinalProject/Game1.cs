@@ -6,7 +6,7 @@ using System;
 
 //Will added a comment
 namespace MonogameProject3_Spaceship
-{
+{ 
     public class Game1 : Game
     {
         private GraphicsDeviceManager _graphics;
