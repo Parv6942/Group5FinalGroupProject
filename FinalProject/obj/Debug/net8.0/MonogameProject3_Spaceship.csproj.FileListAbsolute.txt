@@ -1,0 +1,231 @@
+D:\Conestoga\Teaching\4_2024Sep\Section5\EConestogaCourseShell\MyMonogameProjects\MonogameProject3_Spaceship\bin\Debug\net8.0\Content\asteroid.xnb
+D:\Conestoga\Teaching\4_2024Sep\Section5\EConestogaCourseShell\MyMonogameProjects\MonogameProject3_Spaceship\bin\Debug\net8.0\Content\ship.xnb
+D:\Conestoga\Teaching\4_2024Sep\Section5\EConestogaCourseShell\MyMonogameProjects\MonogameProject3_Spaceship\bin\Debug\net8.0\Content\space.xnb
+D:\Conestoga\Teaching\4_2024Sep\Section5\EConestogaCourseShell\MyMonogameProjects\MonogameProject3_Spaceship\bin\Debug\net8.0\Content\spaceFont.xnb
+D:\Conestoga\Teaching\4_2024Sep\Section5\EConestogaCourseShell\MyMonogameProjects\MonogameProject3_Spaceship\bin\Debug\net8.0\Content\timerFont.xnb
+D:\Conestoga\Teaching\4_2024Sep\Section5\EConestogaCourseShell\MyMonogameProjects\MonogameProject3_Spaceship\bin\Debug\net8.0\MonogameProject3_Spaceship.exe
+D:\Conestoga\Teaching\4_2024Sep\Section5\EConestogaCourseShell\MyMonogameProjects\MonogameProject3_Spaceship\bin\Debug\net8.0\MonogameProject3_Spaceship.deps.json
+D:\Conestoga\Teaching\4_2024Sep\Section5\EConestogaCourseShell\MyMonogameProjects\MonogameProject3_Spaceship\bin\Debug\net8.0\MonogameProject3_Spaceship.runtimeconfig.json
+D:\Conestoga\Teaching\4_2024Sep\Section5\EConestogaCourseShell\MyMonogameProjects\MonogameProject3_Spaceship\bin\Debug\net8.0\MonogameProject3_Spaceship.dll
+D:\Conestoga\Teaching\4_2024Sep\Section5\EConestogaCourseShell\MyMonogameProjects\MonogameProject3_Spaceship\bin\Debug\net8.0\MonogameProject3_Spaceship.pdb
+D:\Conestoga\Teaching\4_2024Sep\Section5\EConestogaCourseShell\MyMonogameProjects\MonogameProject3_Spaceship\bin\Debug\net8.0\MonoGame.Framework.dll
+D:\Conestoga\Teaching\4_2024Sep\Section5\EConestogaCourseShell\MyMonogameProjects\MonogameProject3_Spaceship\bin\Debug\net8.0\NVorbis.dll
+D:\Conestoga\Teaching\4_2024Sep\Section5\EConestogaCourseShell\MyMonogameProjects\MonogameProject3_Spaceship\bin\Debug\net8.0\runtimes\linux-x64\native\libopenal.so.1
+D:\Conestoga\Teaching\4_2024Sep\Section5\EConestogaCourseShell\MyMonogameProjects\MonogameProject3_Spaceship\bin\Debug\net8.0\runtimes\osx\native\libopenal.1.dylib
+D:\Conestoga\Teaching\4_2024Sep\Section5\EConestogaCourseShell\MyMonogameProjects\MonogameProject3_Spaceship\bin\Debug\net8.0\runtimes\win-x64\native\soft_oal.dll
+D:\Conestoga\Teaching\4_2024Sep\Section5\EConestogaCourseShell\MyMonogameProjects\MonogameProject3_Spaceship\bin\Debug\net8.0\runtimes\win-x86\native\soft_oal.dll
+D:\Conestoga\Teaching\4_2024Sep\Section5\EConestogaCourseShell\MyMonogameProjects\MonogameProject3_Spaceship\bin\Debug\net8.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+D:\Conestoga\Teaching\4_2024Sep\Section5\EConestogaCourseShell\MyMonogameProjects\MonogameProject3_Spaceship\bin\Debug\net8.0\runtimes\osx\native\libSDL2.dylib
+D:\Conestoga\Teaching\4_2024Sep\Section5\EConestogaCourseShell\MyMonogameProjects\MonogameProject3_Spaceship\bin\Debug\net8.0\runtimes\win-x64\native\SDL2.dll
+D:\Conestoga\Teaching\4_2024Sep\Section5\EConestogaCourseShell\MyMonogameProjects\MonogameProject3_Spaceship\obj\Debug\net8.0\MonogameProject3_Spaceship.csproj.AssemblyReference.cache
+D:\Conestoga\Teaching\4_2024Sep\Section5\EConestogaCourseShell\MyMonogameProjects\MonogameProject3_Spaceship\obj\Debug\net8.0\MonogameProject3_Spaceship.GeneratedMSBuildEditorConfig.editorconfig
+D:\Conestoga\Teaching\4_2024Sep\Section5\EConestogaCourseShell\MyMonogameProjects\MonogameProject3_Spaceship\obj\Debug\net8.0\MonogameProject3_Spaceship.AssemblyInfoInputs.cache
+D:\Conestoga\Teaching\4_2024Sep\Section5\EConestogaCourseShell\MyMonogameProjects\MonogameProject3_Spaceship\obj\Debug\net8.0\MonogameProject3_Spaceship.AssemblyInfo.cs
+D:\Conestoga\Teaching\4_2024Sep\Section5\EConestogaCourseShell\MyMonogameProjects\MonogameProject3_Spaceship\obj\Debug\net8.0\MonogameProject3_Spaceship.csproj.CoreCompileInputs.cache
+D:\Conestoga\Teaching\4_2024Sep\Section5\EConestogaCourseShell\MyMonogameProjects\MonogameProject3_Spaceship\obj\Debug\net8.0\Monogame.434F9EB4.Up2Date
+D:\Conestoga\Teaching\4_2024Sep\Section5\EConestogaCourseShell\MyMonogameProjects\MonogameProject3_Spaceship\obj\Debug\net8.0\MonogameProject3_Spaceship.dll
+D:\Conestoga\Teaching\4_2024Sep\Section5\EConestogaCourseShell\MyMonogameProjects\MonogameProject3_Spaceship\obj\Debug\net8.0\refint\MonogameProject3_Spaceship.dll
+D:\Conestoga\Teaching\4_2024Sep\Section5\EConestogaCourseShell\MyMonogameProjects\MonogameProject3_Spaceship\obj\Debug\net8.0\MonogameProject3_Spaceship.pdb
+D:\Conestoga\Teaching\4_2024Sep\Section5\EConestogaCourseShell\MyMonogameProjects\MonogameProject3_Spaceship\obj\Debug\net8.0\MonogameProject3_Spaceship.genruntimeconfig.cache
+D:\Conestoga\Teaching\4_2024Sep\Section5\EConestogaCourseShell\MyMonogameProjects\MonogameProject3_Spaceship\obj\Debug\net8.0\ref\MonogameProject3_Spaceship.dll
+C:\Users\wilam\OneDrive\Desktop\Conestoga\Year 2\Sem 3\Game Prog Data Structure\assignment 3\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\Content\asteroid.xnb
+C:\Users\wilam\OneDrive\Desktop\Conestoga\Year 2\Sem 3\Game Prog Data Structure\assignment 3\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\Content\ship.xnb
+C:\Users\wilam\OneDrive\Desktop\Conestoga\Year 2\Sem 3\Game Prog Data Structure\assignment 3\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\Content\space.xnb
+C:\Users\wilam\OneDrive\Desktop\Conestoga\Year 2\Sem 3\Game Prog Data Structure\assignment 3\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\Content\spaceFont.xnb
+C:\Users\wilam\OneDrive\Desktop\Conestoga\Year 2\Sem 3\Game Prog Data Structure\assignment 3\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\Content\timerFont.xnb
+C:\Users\wilam\OneDrive\Desktop\Conestoga\Year 2\Sem 3\Game Prog Data Structure\assignment 3\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\MonogameProject3_Spaceship.exe
+C:\Users\wilam\OneDrive\Desktop\Conestoga\Year 2\Sem 3\Game Prog Data Structure\assignment 3\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\MonogameProject3_Spaceship.deps.json
+C:\Users\wilam\OneDrive\Desktop\Conestoga\Year 2\Sem 3\Game Prog Data Structure\assignment 3\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\MonogameProject3_Spaceship.runtimeconfig.json
+C:\Users\wilam\OneDrive\Desktop\Conestoga\Year 2\Sem 3\Game Prog Data Structure\assignment 3\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\MonogameProject3_Spaceship.dll
+C:\Users\wilam\OneDrive\Desktop\Conestoga\Year 2\Sem 3\Game Prog Data Structure\assignment 3\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\MonogameProject3_Spaceship.pdb
+C:\Users\wilam\OneDrive\Desktop\Conestoga\Year 2\Sem 3\Game Prog Data Structure\assignment 3\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\MonoGame.Framework.dll
+C:\Users\wilam\OneDrive\Desktop\Conestoga\Year 2\Sem 3\Game Prog Data Structure\assignment 3\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\NVorbis.dll
+C:\Users\wilam\OneDrive\Desktop\Conestoga\Year 2\Sem 3\Game Prog Data Structure\assignment 3\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\wilam\OneDrive\Desktop\Conestoga\Year 2\Sem 3\Game Prog Data Structure\assignment 3\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\runtimes\osx\native\libopenal.1.dylib
+C:\Users\wilam\OneDrive\Desktop\Conestoga\Year 2\Sem 3\Game Prog Data Structure\assignment 3\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\runtimes\win-x64\native\soft_oal.dll
+C:\Users\wilam\OneDrive\Desktop\Conestoga\Year 2\Sem 3\Game Prog Data Structure\assignment 3\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\runtimes\win-x86\native\soft_oal.dll
+C:\Users\wilam\OneDrive\Desktop\Conestoga\Year 2\Sem 3\Game Prog Data Structure\assignment 3\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\wilam\OneDrive\Desktop\Conestoga\Year 2\Sem 3\Game Prog Data Structure\assignment 3\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\runtimes\osx\native\libSDL2.dylib
+C:\Users\wilam\OneDrive\Desktop\Conestoga\Year 2\Sem 3\Game Prog Data Structure\assignment 3\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\runtimes\win-x64\native\SDL2.dll
+C:\Users\wilam\OneDrive\Desktop\Conestoga\Year 2\Sem 3\Game Prog Data Structure\assignment 3\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\obj\Debug\net8.0\MonogameProject3_Spaceship.csproj.AssemblyReference.cache
+C:\Users\wilam\OneDrive\Desktop\Conestoga\Year 2\Sem 3\Game Prog Data Structure\assignment 3\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\obj\Debug\net8.0\MonogameProject3_Spaceship.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wilam\OneDrive\Desktop\Conestoga\Year 2\Sem 3\Game Prog Data Structure\assignment 3\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\obj\Debug\net8.0\MonogameProject3_Spaceship.AssemblyInfoInputs.cache
+C:\Users\wilam\OneDrive\Desktop\Conestoga\Year 2\Sem 3\Game Prog Data Structure\assignment 3\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\obj\Debug\net8.0\MonogameProject3_Spaceship.AssemblyInfo.cs
+C:\Users\wilam\OneDrive\Desktop\Conestoga\Year 2\Sem 3\Game Prog Data Structure\assignment 3\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\obj\Debug\net8.0\MonogameProject3_Spaceship.csproj.CoreCompileInputs.cache
+C:\Users\wilam\OneDrive\Desktop\Conestoga\Year 2\Sem 3\Game Prog Data Structure\assignment 3\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\obj\Debug\net8.0\Monogame.434F9EB4.Up2Date
+C:\Users\wilam\OneDrive\Desktop\Conestoga\Year 2\Sem 3\Game Prog Data Structure\assignment 3\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\obj\Debug\net8.0\MonogameProject3_Spaceship.dll
+C:\Users\wilam\OneDrive\Desktop\Conestoga\Year 2\Sem 3\Game Prog Data Structure\assignment 3\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\obj\Debug\net8.0\refint\MonogameProject3_Spaceship.dll
+C:\Users\wilam\OneDrive\Desktop\Conestoga\Year 2\Sem 3\Game Prog Data Structure\assignment 3\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\obj\Debug\net8.0\MonogameProject3_Spaceship.pdb
+C:\Users\wilam\OneDrive\Desktop\Conestoga\Year 2\Sem 3\Game Prog Data Structure\assignment 3\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\obj\Debug\net8.0\MonogameProject3_Spaceship.genruntimeconfig.cache
+C:\Users\wilam\OneDrive\Desktop\Conestoga\Year 2\Sem 3\Game Prog Data Structure\assignment 3\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\obj\Debug\net8.0\ref\MonogameProject3_Spaceship.dll
+C:\Users\wilam\OneDrive\Desktop\Conestoga\Year 2\Sem 3\Game Prog Data Structure\assignment 3\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\Content\amalgam-217007.xnb
+C:\Users\wilam\OneDrive\Desktop\Conestoga\Year 2\Sem 3\Game Prog Data Structure\assignment 3\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\Content\amalgam-2170071.ogg
+C:\Users\wilam\OneDrive\Desktop\Conestoga\Year 2\Sem 3\Game Prog Data Structure\assignment 3\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\Content\amalgam-2170071.xnb
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\obj\Debug\net8.0\MonogameProject3_Spaceship.csproj.AssemblyReference.cache
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\obj\Debug\net8.0\MonogameProject3_Spaceship.GeneratedMSBuildEditorConfig.editorconfig
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\obj\Debug\net8.0\MonogameProject3_Spaceship.AssemblyInfoInputs.cache
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\obj\Debug\net8.0\MonogameProject3_Spaceship.AssemblyInfo.cs
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\obj\Debug\net8.0\MonogameProject3_Spaceship.csproj.CoreCompileInputs.cache
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\obj\Debug\net8.0\MonogameProject3_Spaceship.dll
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\obj\Debug\net8.0\refint\MonogameProject3_Spaceship.dll
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\obj\Debug\net8.0\MonogameProject3_Spaceship.pdb
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\Content\amalgam-217007.xnb
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\Content\amalgam-2170071.ogg
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\Content\amalgam-2170071.xnb
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\Content\asteroid.xnb
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\Content\ship.xnb
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\Content\space.xnb
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\Content\spaceFont.xnb
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\Content\timerFont.xnb
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\MonogameProject3_Spaceship.exe
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\MonogameProject3_Spaceship.deps.json
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\MonogameProject3_Spaceship.runtimeconfig.json
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\MonogameProject3_Spaceship.dll
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\MonogameProject3_Spaceship.pdb
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\MonoGame.Framework.dll
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\NVorbis.dll
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\runtimes\linux-x64\native\libopenal.so.1
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\runtimes\osx\native\libopenal.1.dylib
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\runtimes\win-x64\native\soft_oal.dll
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\runtimes\win-x86\native\soft_oal.dll
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\runtimes\osx\native\libSDL2.dylib
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\bin\Debug\net8.0\runtimes\win-x64\native\SDL2.dll
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\obj\Debug\net8.0\Monogame.434F9EB4.Up2Date
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\obj\Debug\net8.0\MonogameProject3_Spaceship.genruntimeconfig.cache
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship (1)\MonogameProject3_Spaceship\obj\Debug\net8.0\ref\MonogameProject3_Spaceship.dll
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship\FinalProject\bin\Debug\net8.0\Content\amalgam-217007.xnb
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship\FinalProject\bin\Debug\net8.0\Content\amalgam-2170071.ogg
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship\FinalProject\bin\Debug\net8.0\Content\amalgam-2170071.xnb
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship\FinalProject\bin\Debug\net8.0\Content\asteroid.xnb
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship\FinalProject\bin\Debug\net8.0\Content\ship.xnb
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship\FinalProject\bin\Debug\net8.0\Content\space.xnb
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship\FinalProject\bin\Debug\net8.0\Content\spaceFont.xnb
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship\FinalProject\bin\Debug\net8.0\Content\timerFont.xnb
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship\FinalProject\bin\Debug\net8.0\MonogameProject3_Spaceship.exe
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship\FinalProject\bin\Debug\net8.0\MonogameProject3_Spaceship.deps.json
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship\FinalProject\bin\Debug\net8.0\MonogameProject3_Spaceship.runtimeconfig.json
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship\FinalProject\bin\Debug\net8.0\MonogameProject3_Spaceship.dll
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship\FinalProject\bin\Debug\net8.0\MonogameProject3_Spaceship.pdb
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship\FinalProject\bin\Debug\net8.0\MonoGame.Framework.dll
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship\FinalProject\bin\Debug\net8.0\NVorbis.dll
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship\FinalProject\bin\Debug\net8.0\runtimes\linux-x64\native\libopenal.so.1
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship\FinalProject\bin\Debug\net8.0\runtimes\osx\native\libopenal.1.dylib
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship\FinalProject\bin\Debug\net8.0\runtimes\win-x64\native\soft_oal.dll
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship\FinalProject\bin\Debug\net8.0\runtimes\win-x86\native\soft_oal.dll
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship\FinalProject\bin\Debug\net8.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship\FinalProject\bin\Debug\net8.0\runtimes\osx\native\libSDL2.dylib
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship\FinalProject\bin\Debug\net8.0\runtimes\win-x64\native\SDL2.dll
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.csproj.AssemblyReference.cache
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.GeneratedMSBuildEditorConfig.editorconfig
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.AssemblyInfoInputs.cache
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.AssemblyInfo.cs
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.csproj.CoreCompileInputs.cache
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship\FinalProject\obj\Debug\net8.0\Monogame.434F9EB4.Up2Date
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.dll
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship\FinalProject\obj\Debug\net8.0\refint\MonogameProject3_Spaceship.dll
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.pdb
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.genruntimeconfig.cache
+C:\FinalProjectGroup5\MonogameProjectFinalGroup5\MonogameProject3_Spaceship\FinalProject\obj\Debug\net8.0\ref\MonogameProject3_Spaceship.dll
+C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\Content\amalgam-217007.xnb
+C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\Content\amalgam-2170071.ogg
+C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\Content\amalgam-2170071.xnb
+C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\Content\asteroid.xnb
+C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\Content\ship.xnb
+C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\Content\space.xnb
+C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\Content\spaceFont.xnb
+C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\Content\timerFont.xnb
+C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\MonogameProject3_Spaceship.exe
+C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\MonogameProject3_Spaceship.deps.json
+C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\MonogameProject3_Spaceship.runtimeconfig.json
+C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\MonogameProject3_Spaceship.dll
+C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\MonogameProject3_Spaceship.pdb
+C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\MonoGame.Framework.dll
+C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\NVorbis.dll
+C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\runtimes\osx\native\libopenal.1.dylib
+C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\runtimes\win-x64\native\soft_oal.dll
+C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\runtimes\win-x86\native\soft_oal.dll
+C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\runtimes\osx\native\libSDL2.dylib
+C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\runtimes\win-x64\native\SDL2.dll
+C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.csproj.AssemblyReference.cache
+C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.AssemblyInfoInputs.cache
+C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.AssemblyInfo.cs
+C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.csproj.CoreCompileInputs.cache
+C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.sourcelink.json
+C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\Monogame.434F9EB4.Up2Date
+C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.dll
+C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\refint\MonogameProject3_Spaceship.dll
+C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.pdb
+C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.genruntimeconfig.cache
+C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\ref\MonogameProject3_Spaceship.dll
+C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.csproj.AssemblyReference.cache
+C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.AssemblyInfoInputs.cache
+C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.AssemblyInfo.cs
+C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.csproj.CoreCompileInputs.cache
+C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.sourcelink.json
+C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.dll
+C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\refint\MonogameProject3_Spaceship.dll
+C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.pdb
+C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\Content\amalgam-217007.xnb
+C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\Content\amalgam-2170071.ogg
+C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\Content\amalgam-2170071.xnb
+C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\Content\asteroid.xnb
+C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\Content\ship.xnb
+C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\Content\space.xnb
+C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\Content\spaceFont.xnb
+C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\Content\timerFont.xnb
+C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\MonogameProject3_Spaceship.exe
+C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\MonogameProject3_Spaceship.deps.json
+C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\MonogameProject3_Spaceship.runtimeconfig.json
+C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\MonogameProject3_Spaceship.dll
+C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\MonogameProject3_Spaceship.pdb
+C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\MonoGame.Framework.dll
+C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\NVorbis.dll
+C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\runtimes\linux-x64\native\libopenal.so.1
+C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\runtimes\osx\native\libopenal.1.dylib
+C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\runtimes\win-x64\native\soft_oal.dll
+C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\runtimes\win-x86\native\soft_oal.dll
+C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\runtimes\osx\native\libSDL2.dylib
+C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\runtimes\win-x64\native\SDL2.dll
+C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.csproj.CopyComplete
+C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.genruntimeconfig.cache
+C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\ref\MonogameProject3_Spaceship.dll
+C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\Content\amalgam-217007.xnb
+C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\Content\amalgam-2170071.ogg
+C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\Content\amalgam-2170071.xnb
+C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\Content\asteroid.xnb
+C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\Content\ship.xnb
+C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\Content\space.xnb
+C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\Content\spaceFont.xnb
+C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\Content\timerFont.xnb
+C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\MonogameProject3_Spaceship.exe
+C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\MonogameProject3_Spaceship.deps.json
+C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\MonogameProject3_Spaceship.runtimeconfig.json
+C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\MonogameProject3_Spaceship.dll
+C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\MonogameProject3_Spaceship.pdb
+C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\MonoGame.Framework.dll
+C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\NVorbis.dll
+C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\runtimes\linux-x64\native\libopenal.so.1
+C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\runtimes\osx\native\libopenal.1.dylib
+C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\runtimes\win-x64\native\soft_oal.dll
+C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\runtimes\win-x86\native\soft_oal.dll
+C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\runtimes\osx\native\libSDL2.dylib
+C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\runtimes\win-x64\native\SDL2.dll
+C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.csproj.AssemblyReference.cache
+C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.AssemblyInfoInputs.cache
+C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.AssemblyInfo.cs
+C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.csproj.CoreCompileInputs.cache
+C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.sourcelink.json
+C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.csproj.CopyComplete
+C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.dll
+C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\refint\MonogameProject3_Spaceship.dll
+C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.pdb
+C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.genruntimeconfig.cache
+C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\ref\MonogameProject3_Spaceship.dll
