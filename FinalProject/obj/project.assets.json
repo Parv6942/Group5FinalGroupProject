@@ -244,11 +244,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MyGitProjects\\MyFinalGameDevProject\\Group5FinalGroupProject\\FinalProject\\MonogameProject3_Spaceship.csproj",
+      "projectUniqueName": "C:\\MyGitProjects\\MyFinalGameDevProject\\Tempo\\Group5FinalGroupProject\\FinalProject\\MonogameProject3_Spaceship.csproj",
       "projectName": "MonogameProject3_Spaceship",
-      "projectPath": "C:\\MyGitProjects\\MyFinalGameDevProject\\Group5FinalGroupProject\\FinalProject\\MonogameProject3_Spaceship.csproj",
+      "projectPath": "C:\\MyGitProjects\\MyFinalGameDevProject\\Tempo\\Group5FinalGroupProject\\FinalProject\\MonogameProject3_Spaceship.csproj",
       "packagesPath": "C:\\Users\\parvs\\.nuget\\packages\\",
-      "outputPath": "C:\\MyGitProjects\\MyFinalGameDevProject\\Group5FinalGroupProject\\FinalProject\\obj\\",
+      "outputPath": "C:\\MyGitProjects\\MyFinalGameDevProject\\Tempo\\Group5FinalGroupProject\\FinalProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
