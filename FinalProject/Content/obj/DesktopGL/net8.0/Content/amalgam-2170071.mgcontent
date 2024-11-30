@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/MyGitProjects/MyFinalGameDevProject/Tempo/Group5FinalGroupProject/FinalProject/Content/amalgam-2170071.mp3</SourceFile>
-  <SourceTime>2024-11-28T13:22:01.4807399-05:00</SourceTime>
-  <DestFile>C:/MyGitProjects/MyFinalGameDevProject/Tempo/Group5FinalGroupProject/FinalProject/Content/bin/DesktopGL/Content/amalgam-2170071.xnb</DestFile>
-  <DestTime>2024-11-28T19:09:21.5037132-05:00</DestTime>
+  <SourceFile>C:/MyGitProjects/MyFinalGameDevProject/Group5FinalGroupProject/FinalProject/Content/amalgam-2170071.mp3</SourceFile>
+  <SourceTime>2024-11-29T20:06:36.2326028-05:00</SourceTime>
+  <DestFile>C:/MyGitProjects/MyFinalGameDevProject/Group5FinalGroupProject/FinalProject/Content/bin/DesktopGL/Content/amalgam-2170071.xnb</DestFile>
+  <DestTime>2024-11-29T20:11:27.5241576-05:00</DestTime>
   <Importer>Mp3Importer</Importer>
   <ImporterTime>2024-08-16T13:05:56-04:00</ImporterTime>
   <Processor>SongProcessor</Processor>
@@ -15,6 +15,6 @@
   <Dependencies />
   <BuildAsset />
   <BuildOutput>
-    <string>C:/MyGitProjects/MyFinalGameDevProject/Tempo/Group5FinalGroupProject/FinalProject/Content/bin/DesktopGL/Content/amalgam-2170071.ogg</string>
+    <string>C:/MyGitProjects/MyFinalGameDevProject/Group5FinalGroupProject/FinalProject/Content/bin/DesktopGL/Content/amalgam-2170071.ogg</string>
   </BuildOutput>
 </PipelineBuildEvent>

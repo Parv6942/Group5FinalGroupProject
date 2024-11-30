@@ -4,13 +4,13 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/MyGitProjects/MyFinalGameDevProject/Tempo/Group5FinalGroupProject/FinalProject/Content/amalgam-217007.wav</File>
-    <File>C:/MyGitProjects/MyFinalGameDevProject/Tempo/Group5FinalGroupProject/FinalProject/Content/amalgam-2170071.mp3</File>
-    <File>C:/MyGitProjects/MyFinalGameDevProject/Tempo/Group5FinalGroupProject/FinalProject/Content/asteroid.png</File>
-    <File>C:/MyGitProjects/MyFinalGameDevProject/Tempo/Group5FinalGroupProject/FinalProject/Content/ship.png</File>
-    <File>C:/MyGitProjects/MyFinalGameDevProject/Tempo/Group5FinalGroupProject/FinalProject/Content/space.png</File>
-    <File>C:/MyGitProjects/MyFinalGameDevProject/Tempo/Group5FinalGroupProject/FinalProject/Content/spaceFont.spritefont</File>
-    <File>C:/MyGitProjects/MyFinalGameDevProject/Tempo/Group5FinalGroupProject/FinalProject/Content/timerFont.spritefont</File>
+    <File>C:/MyGitProjects/MyFinalGameDevProject/Group5FinalGroupProject/FinalProject/Content/amalgam-217007.wav</File>
+    <File>C:/MyGitProjects/MyFinalGameDevProject/Group5FinalGroupProject/FinalProject/Content/amalgam-2170071.mp3</File>
+    <File>C:/MyGitProjects/MyFinalGameDevProject/Group5FinalGroupProject/FinalProject/Content/asteroid.png</File>
+    <File>C:/MyGitProjects/MyFinalGameDevProject/Group5FinalGroupProject/FinalProject/Content/ship.png</File>
+    <File>C:/MyGitProjects/MyFinalGameDevProject/Group5FinalGroupProject/FinalProject/Content/space.png</File>
+    <File>C:/MyGitProjects/MyFinalGameDevProject/Group5FinalGroupProject/FinalProject/Content/spaceFont.spritefont</File>
+    <File>C:/MyGitProjects/MyFinalGameDevProject/Group5FinalGroupProject/FinalProject/Content/timerFont.spritefont</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

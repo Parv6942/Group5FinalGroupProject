@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MonogameProject3_Spaceship
-build_property.ProjectDir = C:\MyGitProjects\MyFinalGameDevProject\Tempo\Group5FinalGroupProject\FinalProject\
+build_property.ProjectDir = C:\MyGitProjects\MyFinalGameDevProject\Group5FinalGroupProject\FinalProject\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
