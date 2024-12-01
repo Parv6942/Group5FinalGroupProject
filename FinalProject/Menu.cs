@@ -22,8 +22,8 @@ namespace MonogameProject3_Spaceship
 		// Constructor to initialize the font and background
 		public Menu(SpriteFont font, Texture2D background) 
 		{
-		  this.font = font;
-		  this.background = background;
+		  this.font = font; 
+		  this.background = background; 
 		}
 
 		
