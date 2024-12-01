@@ -17,6 +17,7 @@ namespace MonogameProject3_Spaceship
 		// Fields to hold the font and background texture
 		private SpriteFont font;
 		private Texture2D background;
+		
 
 		// Constructor to initialize the font and background
 		public Menu(SpriteFont font, Texture2D background) 
@@ -25,8 +26,10 @@ namespace MonogameProject3_Spaceship
 		  this.background = background;
 		}
 
+		
+
 		// Method to draw the menu based on the current game state
-		public void Draw (SpriteBatch spriteBatch, GameState gameState)
+		public void Draw (SpriteBatch spriteBatch, GameState gameState, int menuIndex)
 		{
 			// Draw the background first 
 			spriteBatch.Draw(background, new Rectangle(0, 0, 1200, 900), Color.White);
@@ -37,15 +40,23 @@ namespace MonogameProject3_Spaceship
 			// Draw different menu options based on the game state
 			switch (gameState) 
 			{
-				case GameState.MainMenu:
-				spriteBatch.DrawString(font, "Press Enter to Start", new Vector2(500, 200), Color.White);
-				spriteBatch.DrawString(font, "Press Q to Quit", new Vector2(500, 400), Color.White);
-				break;
+                case GameState.MainMenu:
+                    spriteBatch.DrawString(font, "Press Enter to Start", new Vector2(500, 200), Color.White);
+                    spriteBatch.DrawString(font, "Press Q to Quit", new Vector2(500, 250), Color.White);
+                    spriteBatch.DrawString(font, "Difficulty:", new Vector2(500, 300), Color.Gold);
 
-				case GameState.GameOver:
+                    // Highlight difficulty options
+                    spriteBatch.DrawString(font, "Easy", new Vector2(500, 350), menuIndex == 0 ? Color.Green : Color.White);
+                    spriteBatch.DrawString(font, "Medium", new Vector2(500, 400), menuIndex == 1 ? Color.Yellow : Color.White);
+                    spriteBatch.DrawString(font, "Hard", new Vector2(500, 450), menuIndex == 2 ? Color.Red : Color.White);
+                break;
+
+
+                case GameState.GameOver:
 				spriteBatch.DrawString(font, "Game Over! Press R to Restart", new Vector2(400, 250), Color.Red);
 				spriteBatch.DrawString(font, "Press Q to Quit", new Vector2(500,400), Color.White);
 				break;
+
 			
 			
 			}

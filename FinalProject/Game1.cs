@@ -4,11 +4,17 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using System;
 
-//Will added a comment
 namespace MonogameProject3_Spaceship
-{ 
+{
     public class Game1 : Game
     {
+        // Add difficulty levels
+        public enum Difficulty { Easy, Medium, Hard }
+        private Difficulty selectedDifficulty = Difficulty.Easy; // Default difficulty
+        private int playerLives; // Store player lives
+        public int menuIndex = 0; // Index for difficulty selection
+
+
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
@@ -59,7 +65,15 @@ namespace MonogameProject3_Spaceship
 
         //Game State 
         public bool inGame = true;
-          
+
+        private KeyboardState previousKeyboardState;
+
+        private TimeSpan collisionCooldown; // Tracks cooldown period
+        private TimeSpan lastCollisionTime; // Tracks the last collision time
+
+
+
+
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -79,8 +93,12 @@ namespace MonogameProject3_Spaceship
             elapsedTime = TimeSpan.Zero;
             secondsElapsed = 0;
 
+            collisionCooldown = TimeSpan.FromSeconds(2); // 2 seconds cooldown
+            lastCollisionTime = TimeSpan.Zero; // No collision yet
+
+
             //Menu related 
-           
+
 
             base.Initialize();
         }
@@ -123,21 +141,43 @@ namespace MonogameProject3_Spaceship
 			//Switch case to handle the current game state
 			switch (currentGameState) 
             {
-              case GameState.MainMenu:
-               // Transition to InGame state if Enter is pressed
-              if (keyboardState.IsKeyDown(Keys.Enter))
-              {
-                currentGameState = GameState.InGame;
-                controller.restartTimer();
-              }
-              // Exit the game if Q is pressed
-              else if (keyboardState.IsKeyDown(Keys.Q))
-              {
-                Exit();
-              }
-              break;
+                case GameState.MainMenu:
+                    // Navigate menu with Up and Down keys
+                    if (keyboardState.IsKeyDown(Keys.Down) && previousKeyboardState.IsKeyUp(Keys.Down))
+                    {
+                        menuIndex = (menuIndex + 1) % 3; // Cycle through 0, 1, 2
+                    }
+                    if (keyboardState.IsKeyDown(Keys.Up) && previousKeyboardState.IsKeyUp(Keys.Up))
+                    {
+                        menuIndex = (menuIndex - 1 + 3) % 3; // Wrap around to 2 if at 0
+                    }
 
-              case GameState.InGame:
+                    // Set difficulty on Enter key
+                    if (keyboardState.IsKeyDown(Keys.Enter) && previousKeyboardState.IsKeyUp(Keys.Enter))
+                    {
+                        selectedDifficulty = (Difficulty)menuIndex;
+
+                        // Set lives based on difficulty
+                        playerLives = selectedDifficulty switch
+                        {
+                            Difficulty.Easy => 3,
+                            Difficulty.Medium => 2,
+                            Difficulty.Hard => 1,
+                            _ => 3 // Default to Easy if something goes wrong
+                        };
+
+                        currentGameState = GameState.InGame; // Start the game
+                    }
+
+                    // Exit the game if Q is pressed
+                    if (keyboardState.IsKeyDown(Keys.Q))
+                    {
+                        Exit();
+                    }
+                    break;
+
+
+                case GameState.InGame:
                // Update gameplay logic
               UpdateGamplay(gameTime);
               if (!inGame)
@@ -161,7 +201,8 @@ namespace MonogameProject3_Spaceship
               break;
             }
 
-			base.Update(gameTime);
+            previousKeyboardState = keyboardState;
+            base.Update(gameTime);
         }
 
 
@@ -178,16 +219,29 @@ namespace MonogameProject3_Spaceship
 			// Get updated seconds count from Controller
 			secondsElapsed = controller.updateTime(gameTime);
 
-			// Check for collision
-			if ((controller.didCollisionHappen(player, ast1) || controller.didCollisionHappen(player, ast2) || controller.didCollisionHappen(player, ast3)) && inGame)
-			{
-				controller.playerScore -= 3; // player loses 3 points
-			}
-            // End the game if the timer exceeds 15 seconds or the score drops below 0
-			if (secondsElapsed >= 15 || controller.playerScore < 0)
-			{
-				inGame = false;
-			}
+
+            // Check for collision
+            if ((controller.didCollisionHappen(player, ast1) || controller.didCollisionHappen(player, ast2) || controller.didCollisionHappen(player, ast3)) && inGame)
+            {
+                // Only decrement lives if the cooldown period has elapsed
+                if (gameTime.TotalGameTime - lastCollisionTime > collisionCooldown)
+                {
+                    playerLives--; // Go down a life
+                    lastCollisionTime = gameTime.TotalGameTime; // Update the last collision time
+
+                    if (playerLives <= 0) // End game if lives zero
+                    {
+                        inGame = false;
+                    }
+                }
+            }
+
+
+   //         // End the game if the timer exceeds 15 seconds or the score drops below 0
+   //         if (secondsElapsed >= 15 || controller.playerScore < 0)
+			//{
+			//	inGame = false;
+			//}
 
             // Increment score if the player successfully dodges an asteroid
 			if (controller.didShipPast(player, ast1) && ast1.currentOne)
@@ -220,7 +274,7 @@ namespace MonogameProject3_Spaceship
             switch (currentGameState)
             {
                 case GameState.MainMenu:
-                _menu.Draw(_spriteBatch, GameState.MainMenu); 
+                _menu.Draw(_spriteBatch, GameState.MainMenu, menuIndex); 
                 break;
 
                 case GameState.InGame:
@@ -228,7 +282,7 @@ namespace MonogameProject3_Spaceship
                 break;
 
                 case GameState.GameOver:
-                _menu.Draw(_spriteBatch, GameState.GameOver);
+                _menu.Draw(_spriteBatch, GameState.GameOver, menuIndex);
                 break;
             }
 
@@ -247,28 +301,20 @@ namespace MonogameProject3_Spaceship
 			_spriteBatch.Draw(asteroidSprite1, new Vector2(ast1.position.X - Asteroid.radius, ast1.position.Y - Asteroid.radius), Color.White);
 			_spriteBatch.Draw(asteroidSprite2, new Vector2(ast2.position.X - Asteroid.radius, ast2.position.Y - Asteroid.radius), Color.White);
 			_spriteBatch.Draw(asteroidSprite3, new Vector2(ast3.position.X - Asteroid.radius, ast3.position.Y - Asteroid.radius), Color.White);
-            _spriteBatch.Draw(swordGreen1, new Vector2(ast3.position.X - Asteroid.radius, ast3.position.Y - Asteroid.radius), Color.White);
 
+            //Hi
 
-            // Displaying Timer and Score
-            _spriteBatch.DrawString(timerFont, "Time: " + secondsElapsed, new Vector2(_graphics.PreferredBackBufferWidth / 2, 30), Color.White);
+			// Displaying Timer and Score
+			_spriteBatch.DrawString(timerFont, "Time: " + secondsElapsed, new Vector2(_graphics.PreferredBackBufferWidth / 2, 30), Color.White);
 			_spriteBatch.DrawString(scoreFont, "Score: " + controller.playerScore, new Vector2(_graphics.PreferredBackBufferWidth / 4, 30), Color.White);
+            // Display remaining lives
+            _spriteBatch.DrawString(scoreFont, "Lives: " + playerLives, new Vector2(_graphics.PreferredBackBufferWidth / 1.5f, 30), Color.White);
+
 
             // Display game-over text if the game ends
-			if (!inGame)
+            if (!inGame)
 			{
 				_spriteBatch.DrawString(gameFont, controller.gameEndScript(), new Vector2(_graphics.PreferredBackBufferWidth / 4 - 100, _graphics.PreferredBackBufferHeight / 2), Color.White);
-				//ast1.speed = 0;
-				//ast2.speed = 0;
-				//ast3.speed = 0;
-				//if (setBack)
-				//{
-				//	ast1.position.X += 5;
-				//	ast2.position.X += 5;
-				//	ast3.position.X += 5;
-				//	setBack = false;
-				//}
-				//player.endSpeed();
 
 			}
 
@@ -287,6 +333,15 @@ namespace MonogameProject3_Spaceship
 			ast1 = new Asteroid(4);
             ast2 = new Asteroid(6);
             ast3 = new Asteroid(8);
+
+            // Reset lives based on difficulty
+            playerLives = selectedDifficulty switch
+            {
+                Difficulty.Easy => 3,
+                Difficulty.Medium => 2,
+                Difficulty.Hard => 1
+            };
+
 
             setBack = true;
         }
