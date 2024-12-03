@@ -13,13 +13,13 @@ namespace MonogameProject3_Spaceship
 {
     internal class Asteroid
     {
-        public Vector2 position = new Vector2(1300, 300);
+        public Vector2 position = new Vector2(1300, 450);
+        public Vector2 greenPosition = new Vector2(1300, 0);
         public int speed;
         static public int radius = 60;
         public bool currentOne = true;
         public Asteroid(int speed)
         {
-
             this.speed = speed;
         }
 

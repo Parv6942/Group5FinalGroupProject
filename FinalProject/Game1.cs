@@ -51,6 +51,7 @@ namespace MonogameProject3_Spaceship
         Asteroid ast1 = new Asteroid(4);
         Asteroid ast2 = new Asteroid(6);
         Asteroid ast3 = new Asteroid(8);
+        Asteroid gSword1 = new Asteroid(1);
 
         // Flag for resetting asteroid positions when the game ends
         bool setBack = true;
@@ -205,7 +206,6 @@ namespace MonogameProject3_Spaceship
             base.Update(gameTime);
         }
 
-
         //UpdateGameplay handles the ship, asteroid, points gameplay and mechaincs
         private void UpdateGamplay(GameTime gameTime)
         {
@@ -215,6 +215,7 @@ namespace MonogameProject3_Spaceship
 			ast1.updateAsteroid();
 			ast2.updateAsteroid();
 			ast3.updateAsteroid();
+            gSword1.updateAsteroid();
 
 			// Get updated seconds count from Controller
 			secondsElapsed = controller.updateTime(gameTime);
@@ -301,11 +302,11 @@ namespace MonogameProject3_Spaceship
 			_spriteBatch.Draw(asteroidSprite1, new Vector2(ast1.position.X - Asteroid.radius, ast1.position.Y - Asteroid.radius), Color.White);
 			_spriteBatch.Draw(asteroidSprite2, new Vector2(ast2.position.X - Asteroid.radius, ast2.position.Y - Asteroid.radius), Color.White);
 			_spriteBatch.Draw(asteroidSprite3, new Vector2(ast3.position.X - Asteroid.radius, ast3.position.Y - Asteroid.radius), Color.White);
-
+            _spriteBatch.Draw(swordGreen1, new Vector2(ast3.greenPosition.X - Asteroid.radius, ast3.greenPosition.Y - Asteroid.radius), Color.White);
             //Hi
 
-			// Displaying Timer and Score
-			_spriteBatch.DrawString(timerFont, "Time: " + secondsElapsed, new Vector2(_graphics.PreferredBackBufferWidth / 2, 30), Color.White);
+            // Displaying Timer and Score
+            _spriteBatch.DrawString(timerFont, "Time: " + secondsElapsed, new Vector2(_graphics.PreferredBackBufferWidth / 2, 30), Color.White);
 			_spriteBatch.DrawString(scoreFont, "Score: " + controller.playerScore, new Vector2(_graphics.PreferredBackBufferWidth / 4, 30), Color.White);
             // Display remaining lives
             _spriteBatch.DrawString(scoreFont, "Lives: " + playerLives, new Vector2(_graphics.PreferredBackBufferWidth / 1.5f, 30), Color.White);
