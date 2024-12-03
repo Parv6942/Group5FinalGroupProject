@@ -28,7 +28,7 @@ namespace MonogameProject3_Spaceship
             this.speed = 0;
         }
 
-        public bool getIsMoving()
+        public bool getIsMoving() 
         {
             return this.isMoiving;
         }

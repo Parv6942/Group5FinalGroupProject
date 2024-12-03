@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,6 +54,19 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ship.cs",
+              "DocumentMoniker": "C:\\Users\\willi\\Documents\\GitHub\\Group5FinalGroupProject\\FinalProject\\Ship.cs",
+              "RelativeDocumentMoniker": "Ship.cs",
+              "ToolTip": "C:\\Users\\willi\\Documents\\GitHub\\Group5FinalGroupProject\\FinalProject\\Ship.cs",
+              "RelativeToolTip": "Ship.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAIwB4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T07:07:50.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Ship.cs",
               "DocumentMoniker": "C:\\Users\\humza\\OneDrive\\Desktop\\FinalProject\\Group5FinalGroupProject\\FinalProject\\Ship.cs",
@@ -62,17 +75,64 @@
               "RelativeToolTip": "Ship.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T07:07:50.183Z"
+              "WhenOpened": "2024-11-28T06:34:17.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "asteroid.png",
+              "DocumentMoniker": "C:\\Users\\willi\\Documents\\GitHub\\Group5FinalGroupProject\\FinalProject\\Content\\asteroid.png",
+              "RelativeDocumentMoniker": "Content\\asteroid.png",
+              "ToolTip": "C:\\Users\\willi\\Documents\\GitHub\\Group5FinalGroupProject\\FinalProject\\Content\\asteroid.png",
+              "RelativeToolTip": "Content\\asteroid.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-11-28T06:33:03.768Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Asteroid.cs",
-              "DocumentMoniker": "C:\\Users\\humza\\OneDrive\\Desktop\\FinalProject\\Group5FinalGroupProject\\FinalProject\\Asteroid.cs",
-              "RelativeDocumentMoniker": "Asteroid.cs",
-              "ToolTip": "C:\\Users\\humza\\OneDrive\\Desktop\\FinalProject\\Group5FinalGroupProject\\FinalProject\\Asteroid.cs",
-              "RelativeToolTip": "Asteroid.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
+              "Title": "Controller.cs",
+              "DocumentMoniker": "C:\\Users\\willi\\Documents\\GitHub\\Group5FinalGroupProject\\FinalProject\\Controller.cs",
+              "RelativeDocumentMoniker": "Controller.cs",
+              "ToolTip": "C:\\Users\\willi\\Documents\\GitHub\\Group5FinalGroupProject\\FinalProject\\Controller.cs",
+              "RelativeToolTip": "Controller.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAApwDEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:16:35.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": ".mgstats",
+              "DocumentMoniker": "C:\\Users\\willi\\Documents\\GitHub\\Group5FinalGroupProject\\FinalProject\\Content\\obj\\DesktopGL\\net8.0\\Content\\.mgstats",
+              "RelativeDocumentMoniker": "Content\\obj\\DesktopGL\\net8.0\\Content\\.mgstats",
+              "ToolTip": "C:\\Users\\willi\\Documents\\GitHub\\Group5FinalGroupProject\\FinalProject\\Content\\obj\\DesktopGL\\net8.0\\Content\\.mgstats",
+              "RelativeToolTip": "Content\\obj\\DesktopGL\\net8.0\\Content\\.mgstats",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-28T06:16:34.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": ".mgstats",
+              "DocumentMoniker": "C:\\Users\\willi\\Documents\\GitHub\\Group5FinalGroupProject\\FinalProject\\Content\\obj\\DesktopGL\\.mgstats",
+              "RelativeDocumentMoniker": "Content\\obj\\DesktopGL\\.mgstats",
+              "ToolTip": "C:\\Users\\willi\\Documents\\GitHub\\Group5FinalGroupProject\\FinalProject\\Content\\obj\\DesktopGL\\.mgstats",
+              "RelativeToolTip": "Content\\obj\\DesktopGL\\.mgstats",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-28T06:16:31.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\willi\\Documents\\GitHub\\Group5FinalGroupProject\\FinalProject\\Menu.cs",
+              "RelativeDocumentMoniker": "Menu.cs",
+              "ToolTip": "C:\\Users\\willi\\Documents\\GitHub\\Group5FinalGroupProject\\FinalProject\\Menu.cs",
+              "RelativeToolTip": "Menu.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAB6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T23:06:11.611Z"
             },
@@ -145,8 +205,7 @@
               "RelativeToolTip": "Game1.cs",
               "ViewState": "AgIAAA8BAAAAAAAAAAAuwM4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T00:36:50.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T00:36:50.047Z"
             }
           ]
         }

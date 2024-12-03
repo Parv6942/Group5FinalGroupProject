@@ -3,23 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\humza\\OneDrive\\Desktop\\FinalProject\\Group5FinalGroupProject\\FinalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D6061F46-85A4-4B65-87EA-BA37B9C4635F}|MonogameProject3_Spaceship.csproj|c:\\users\\humza\\onedrive\\desktop\\finalproject\\group5finalgroupproject\\finalproject\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6061F46-85A4-4B65-87EA-BA37B9C4635F}|MonogameProject3_Spaceship.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6061F46-85A4-4B65-87EA-BA37B9C4635F}|MonogameProject3_Spaceship.csproj|c:\\users\\humza\\onedrive\\desktop\\finalproject\\group5finalgroupproject\\finalproject\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6061F46-85A4-4B65-87EA-BA37B9C4635F}|MonogameProject3_Spaceship.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6061F46-85A4-4B65-87EA-BA37B9C4635F}|MonogameProject3_Spaceship.csproj|c:\\users\\humza\\onedrive\\desktop\\finalproject\\group5finalgroupproject\\finalproject\\ship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6061F46-85A4-4B65-87EA-BA37B9C4635F}|MonogameProject3_Spaceship.csproj|c:\\users\\willi\\documents\\github\\group5finalgroupproject\\finalproject\\ship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6061F46-85A4-4B65-87EA-BA37B9C4635F}|MonogameProject3_Spaceship.csproj|solutionrelative:ship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6061F46-85A4-4B65-87EA-BA37B9C4635F}|MonogameProject3_Spaceship.csproj|c:\\users\\humza\\onedrive\\desktop\\finalproject\\group5finalgroupproject\\finalproject\\asteroid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6061F46-85A4-4B65-87EA-BA37B9C4635F}|MonogameProject3_Spaceship.csproj|c:\\users\\willi\\documents\\github\\group5finalgroupproject\\finalproject\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6061F46-85A4-4B65-87EA-BA37B9C4635F}|MonogameProject3_Spaceship.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6061F46-85A4-4B65-87EA-BA37B9C4635F}|MonogameProject3_Spaceship.csproj|c:\\users\\willi\\documents\\github\\group5finalgroupproject\\finalproject\\asteroid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6061F46-85A4-4B65-87EA-BA37B9C4635F}|MonogameProject3_Spaceship.csproj|solutionrelative:asteroid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6061F46-85A4-4B65-87EA-BA37B9C4635F}|MonogameProject3_Spaceship.csproj|c:\\users\\humza\\onedrive\\desktop\\finalproject\\group5finalgroupproject\\finalproject\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6061F46-85A4-4B65-87EA-BA37B9C4635F}|MonogameProject3_Spaceship.csproj|c:\\users\\willi\\documents\\github\\group5finalgroupproject\\finalproject\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6061F46-85A4-4B65-87EA-BA37B9C4635F}|MonogameProject3_Spaceship.csproj|solutionrelative:controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -42,8 +38,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ship.cs",
+              "DocumentMoniker": "C:\\Users\\willi\\Documents\\GitHub\\Group5FinalGroupProject\\FinalProject\\Ship.cs",
+              "RelativeDocumentMoniker": "Ship.cs",
+              "ToolTip": "C:\\Users\\willi\\Documents\\GitHub\\Group5FinalGroupProject\\FinalProject\\Ship.cs",
+              "RelativeToolTip": "Ship.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAIwDAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T07:07:50.183Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -53,26 +62,81 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Ship.cs",
-              "DocumentMoniker": "C:\\Users\\humza\\OneDrive\\Desktop\\FinalProject\\Group5FinalGroupProject\\FinalProject\\Ship.cs",
-              "RelativeDocumentMoniker": "Ship.cs",
-              "ToolTip": "C:\\Users\\humza\\OneDrive\\Desktop\\FinalProject\\Group5FinalGroupProject\\FinalProject\\Ship.cs",
-              "RelativeToolTip": "Ship.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAANAAAAAAAAAA==",
+              "Title": "Asteroid.cs",
+              "DocumentMoniker": "C:\\Users\\willi\\Documents\\GitHub\\Group5FinalGroupProject\\FinalProject\\Asteroid.cs",
+              "RelativeDocumentMoniker": "Asteroid.cs",
+              "ToolTip": "C:\\Users\\willi\\Documents\\GitHub\\Group5FinalGroupProject\\FinalProject\\Asteroid.cs",
+              "RelativeToolTip": "Asteroid.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:34:17.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "asteroid.png",
+              "DocumentMoniker": "C:\\Users\\willi\\Documents\\GitHub\\Group5FinalGroupProject\\FinalProject\\Content\\asteroid.png",
+              "RelativeDocumentMoniker": "Content\\asteroid.png",
+              "ToolTip": "C:\\Users\\willi\\Documents\\GitHub\\Group5FinalGroupProject\\FinalProject\\Content\\asteroid.png",
+              "RelativeToolTip": "Content\\asteroid.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-11-28T06:33:03.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Controller.cs",
+              "DocumentMoniker": "C:\\Users\\willi\\Documents\\GitHub\\Group5FinalGroupProject\\FinalProject\\Controller.cs",
+              "RelativeDocumentMoniker": "Controller.cs",
+              "ToolTip": "C:\\Users\\willi\\Documents\\GitHub\\Group5FinalGroupProject\\FinalProject\\Controller.cs",
+              "RelativeToolTip": "Controller.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAApwDEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T07:07:50.183Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Asteroid.cs",
-              "DocumentMoniker": "C:\\Users\\humza\\OneDrive\\Desktop\\FinalProject\\Group5FinalGroupProject\\FinalProject\\Asteroid.cs",
-              "RelativeDocumentMoniker": "Asteroid.cs",
-              "ToolTip": "C:\\Users\\humza\\OneDrive\\Desktop\\FinalProject\\Group5FinalGroupProject\\FinalProject\\Asteroid.cs",
-              "RelativeToolTip": "Asteroid.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": ".mgstats",
+              "DocumentMoniker": "C:\\Users\\willi\\Documents\\GitHub\\Group5FinalGroupProject\\FinalProject\\Content\\obj\\DesktopGL\\net8.0\\Content\\.mgstats",
+              "RelativeDocumentMoniker": "Content\\obj\\DesktopGL\\net8.0\\Content\\.mgstats",
+              "ToolTip": "C:\\Users\\willi\\Documents\\GitHub\\Group5FinalGroupProject\\FinalProject\\Content\\obj\\DesktopGL\\net8.0\\Content\\.mgstats",
+              "RelativeToolTip": "Content\\obj\\DesktopGL\\net8.0\\Content\\.mgstats",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-28T06:16:34.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": ".mgstats",
+              "DocumentMoniker": "C:\\Users\\willi\\Documents\\GitHub\\Group5FinalGroupProject\\FinalProject\\Content\\obj\\DesktopGL\\.mgstats",
+              "RelativeDocumentMoniker": "Content\\obj\\DesktopGL\\.mgstats",
+              "ToolTip": "C:\\Users\\willi\\Documents\\GitHub\\Group5FinalGroupProject\\FinalProject\\Content\\obj\\DesktopGL\\.mgstats",
+              "RelativeToolTip": "Content\\obj\\DesktopGL\\.mgstats",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-28T06:16:31.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\willi\\Documents\\GitHub\\Group5FinalGroupProject\\FinalProject\\Menu.cs",
+              "RelativeDocumentMoniker": "Menu.cs",
+              "ToolTip": "C:\\Users\\willi\\Documents\\GitHub\\Group5FinalGroupProject\\FinalProject\\Menu.cs",
+              "RelativeToolTip": "Menu.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAB6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T23:06:11.611Z"
             },
@@ -143,7 +207,7 @@
               "RelativeDocumentMoniker": "Game1.cs",
               "ToolTip": "C:\\Users\\humza\\OneDrive\\Desktop\\FinalProject\\Group5FinalGroupProject\\FinalProject\\Game1.cs",
               "RelativeToolTip": "Game1.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAQwM4AAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAKwAAAAAAAAAAIAwwM4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T00:36:50.047Z",
               "EditorCaption": ""
