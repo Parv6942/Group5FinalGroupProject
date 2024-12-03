@@ -3,6 +3,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using System;
+using System.Collections.Generic;
 
 namespace MonogameProject3_Spaceship
 {
@@ -12,11 +13,24 @@ namespace MonogameProject3_Spaceship
         public enum Difficulty { Easy, Medium, Hard }
         private Difficulty selectedDifficulty = Difficulty.Easy; // Default difficulty
         private int playerLives; // Store player lives
+        private bool ifHardMode; // For Will (checks if hardmode selected)
         public int menuIndex = 0; // Index for difficulty selection
 
 
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+
+        // text for hard mode
+
+
+        int currentDialogueIndex = 0; // The start of text
+        float textSpeed = 0.05f;  // Speed at which text is revealed
+        float currentTextTime = 0f;  // Time accumulator for controlling typing speed
+        int currentCharacter = 0;  // The index of the character we're currently displaying
+        bool isDialogueActive = false;  // Flag to control whether dialogue is showing
+        bool isTextComplete = false;  // Flag to know if the current line is fully typed out
+
+
 
         // Texture asserts for the game
         Texture2D shipSprite;
@@ -137,6 +151,18 @@ namespace MonogameProject3_Spaceship
 
             // TODO: Add your update logic here
             // Get the current keyboard state
+
+            if (ifHardMode)
+            {
+                List<string> hardModeText = new List<string>() {
+                    "Woah, you've selected \"Hard\" mode",
+                    "This is basically the same as the others but more",
+                    "The green sword will be undodgable, but you can pass it as long as you're moving"
+                };
+            }
+
+
+
             KeyboardState keyboardState = Keyboard.GetState();
 
 			//Switch case to handle the current game state
@@ -165,6 +191,14 @@ namespace MonogameProject3_Spaceship
                             Difficulty.Medium => 2,
                             Difficulty.Hard => 1,
                             _ => 3 // Default to Easy if something goes wrong
+                        };
+
+                        ifHardMode = selectedDifficulty switch
+                        {
+                            Difficulty.Easy => false,
+                            Difficulty.Medium => false,
+                            Difficulty.Hard => true,
+                            _ => false
                         };
 
                         currentGameState = GameState.InGame; // Start the game
@@ -343,10 +377,17 @@ namespace MonogameProject3_Spaceship
                 Difficulty.Hard => 1
             };
 
+            ifHardMode = selectedDifficulty switch
+            {
+                Difficulty.Easy => false,
+                Difficulty.Medium => false,
+                Difficulty.Hard => true,
+                _ => false
+            };
 
             setBack = true;
         }
-
+        
 
 
 
