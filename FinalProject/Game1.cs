@@ -4,6 +4,7 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using System;
 using System.Collections.Generic;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace MonogameProject3_Spaceship
 {
@@ -22,13 +23,19 @@ namespace MonogameProject3_Spaceship
 
         // text for hard mode
 
-
+        List<string> npcDialogues = new List<string>() {
+            "Woah, you've selected \"Hard\" mode",
+            "This is basically the same as the others but more",
+            "The green sword will be undodgable, but you can pass it as long as you're moving"
+        };
         int currentDialogueIndex = 0; // The start of text
         float textSpeed = 0.05f;  // Speed at which text is revealed
         float currentTextTime = 0f;  // Time accumulator for controlling typing speed
         int currentCharacter = 0;  // The index of the character we're currently displaying
         bool isDialogueActive = false;  // Flag to control whether dialogue is showing
         bool isTextComplete = false;  // Flag to know if the current line is fully typed out
+        float lineWaitTime = 1f;  // Time to wait before moving to the next line of dialogue after it's fully displayed
+        float currentWaitTime = 0f;  // Time accumulator for waiting between lines
 
 
 
@@ -96,9 +103,12 @@ namespace MonogameProject3_Spaceship
             IsMouseVisible = true;
         }
 
+
+        private DialogueManager dialogueManager;
         // handles initialize  logic 
         protected override void Initialize()
         {
+            dialogueManager = new DialogueManager(npcDialogues, 0.05f, 1f);
             // TODO: Add your initialization logic here
             _graphics.PreferredBackBufferWidth = 1200;
             _graphics.PreferredBackBufferHeight = 900;
@@ -143,6 +153,8 @@ namespace MonogameProject3_Spaceship
 
         }
 
+        //
+
         // handles the menu logic
         protected override void Update(GameTime gameTime)
         {
@@ -152,13 +164,14 @@ namespace MonogameProject3_Spaceship
             // TODO: Add your update logic here
             // Get the current keyboard state
 
-            if (ifHardMode)
+            if (ifHardMode && !dialogueManager.IsDialogueActive())
             {
-                List<string> hardModeText = new List<string>() {
-                    "Woah, you've selected \"Hard\" mode",
-                    "This is basically the same as the others but more",
-                    "The green sword will be undodgable, but you can pass it as long as you're moving"
-                };
+                dialogueManager.StartDialogue();
+            }
+
+            if (dialogueManager.IsDialogueActive())
+            {
+                dialogueManager.UpdateDialogue(gameTime);
             }
 
 
@@ -272,12 +285,6 @@ namespace MonogameProject3_Spaceship
             }
 
 
-   //         // End the game if the timer exceeds 15 seconds or the score drops below 0
-   //         if (secondsElapsed >= 15 || controller.playerScore < 0)
-			//{
-			//	inGame = false;
-			//}
-
             // Increment score if the player successfully dodges an asteroid
 			if (controller.didShipPast(player, ast1) && ast1.currentOne)
 			{
@@ -299,6 +306,18 @@ namespace MonogameProject3_Spaceship
         // Draw() hands the menu and display it
         protected override void Draw(GameTime gameTime)
         {
+            // the Dialogue
+            if (isDialogueActive)
+            {
+                // Get the current text to display, up to the current character index
+                string currentText = npcDialogues[currentDialogueIndex].Substring(0, currentCharacter);
+
+                Vector2 textPosition = new Vector2(400, 300);
+                _spriteBatch.Begin();
+                _spriteBatch.DrawString(gameFont, currentText, textPosition, Color.White);
+                _spriteBatch.End();
+            }
+
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
@@ -362,10 +381,9 @@ namespace MonogameProject3_Spaceship
             // Reset game variables
             inGame = true;
             controller.playerScore = 0;
-            secondsElapsed = 0;
-
-			// Reset asteroids
-			ast1 = new Asteroid(4);
+            controller.restartTimer();
+            // Reset asteroids
+            ast1 = new Asteroid(4);
             ast2 = new Asteroid(6);
             ast3 = new Asteroid(8);
 
