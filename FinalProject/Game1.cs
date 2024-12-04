@@ -371,7 +371,7 @@ namespace MonogameProject3_Spaceship
 			_spriteBatch.Draw(asteroidSprite3, new Vector2(ast3.position.X - Asteroid.radius, ast3.position.Y - Asteroid.radius), Color.White);
             if (ifHardMode)
             {
-                _spriteBatch.Draw(swordGreen1, new Vector2(gSword1.greenPosition.X - Asteroid.radius, gSword1.greenPosition.Y), Color.White);
+                _spriteBatch.Draw(swordGreen1, new Vector2(gSword1.greenPosition.X, gSword1.greenPosition.Y), Color.White);
             }
 
             // Displaying Timer and Score
@@ -425,10 +425,5 @@ namespace MonogameProject3_Spaceship
             }
             setBack = true;
         }
-        
-
-
-
-
     }
 }

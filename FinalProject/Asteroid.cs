@@ -16,9 +16,20 @@ namespace MonogameProject3_Spaceship
         public Vector2 position = new Vector2(1300, 450);
         public Vector2 greenPosition = new Vector2(1300, 0);
         public int speed;
-        static public int radius = 50;
+        static public int radius = 25;
         public bool currentOne = true;
-        
+        public Rectangle Hitbox
+        {
+            get
+            {
+                return new Rectangle(
+                    (int)greenPosition.X - radius,
+                    0,
+                    radius * 2,
+                    900
+                );
+            }
+        }
         public Asteroid(int speed)
         {
             this.speed = speed;

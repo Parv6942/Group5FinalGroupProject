@@ -57,14 +57,7 @@ namespace MonogameProject3_Spaceship
 
         public bool didCollisionHappenG(Ship player, Asteroid ast)
         {
-            int playerRadius = player.getRadius();
-            int astRadius = Asteroid.radius;
-            int distance = playerRadius + astRadius;
-            if (Vector2.Distance(player.position, ast.greenPosition) < distance)
-            {
-                return true;
-            }
-            return false;
+            return player.Hitbox.Intersects(ast.Hitbox);
         }
         public bool didShipPast(Ship player, Asteroid ast)
         {

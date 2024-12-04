@@ -12,11 +12,23 @@ namespace MonogameProject3_Spaceship
 {
     internal class Ship
     {
-        public Vector2 position = new Vector2(100, 100);
+        public Vector2 position = new Vector2(50, 50);
         int speed = 4;
-        int radius = 50;
+        int radius = 25;
         bool isMoving = false;
-        
+        public Rectangle Hitbox
+        {
+            get
+            {
+                int size = 50; // Replace this with the actual size of the ship sprite
+                return new Rectangle(
+                    (int)(position.X - size / 2), // Center X
+                    (int)(position.Y - size / 2), // Center Y
+                    size,                         // Width
+                    size                          // Height
+                );
+            }
+        }
         public void setRadius(int radius)
         {
             this.radius = radius;
@@ -59,9 +71,6 @@ namespace MonogameProject3_Spaceship
             }
             speed = state.IsKeyDown(Keys.Space) ? 8 : 4;
             this.isMoving = (this.position.X != previousPositionX || this.position.Y != previousPositionY);
-            
-            
-            
         }
     }
 }
