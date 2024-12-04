@@ -35,6 +35,8 @@ namespace MonogameProject3_Spaceship
         }
         public void updateShip() {
             Vector2 previousPosition = this.position;
+            float previousPositionX = this.position.X;
+            float previousPositionY = this.position.Y;
 
             //3// Move the player along X-axis using Keyboard   
             KeyboardState state = Keyboard.GetState();
@@ -56,11 +58,10 @@ namespace MonogameProject3_Spaceship
                 this.position.Y +=speed ;
             }
             speed = state.IsKeyDown(Keys.Space) ? 8 : 4;
-            this.isMoving = this.position != previousPosition;
-            if (this.position != previousPosition)
-            {
-                isMoving = true;
-            }
+            this.isMoving = (this.position.X != previousPositionX || this.position.Y != previousPositionY);
+            
+            
+            
         }
     }
 }

@@ -297,7 +297,7 @@ namespace MonogameProject3_Spaceship
             {
                 gSword1.updateSword();
 
-                if (controller.didCollisionHappen(player, gSword1) && !player.getIsMoving())
+                if (controller.didCollisionHappenG(player, gSword1) && !player.getIsMoving())
                 {
                     if (gameTime.TotalGameTime - lastCollisionTime > collisionCooldown)
                     {
