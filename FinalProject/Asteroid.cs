@@ -16,8 +16,9 @@ namespace MonogameProject3_Spaceship
         public Vector2 position = new Vector2(1300, 450);
         public Vector2 greenPosition = new Vector2(1300, 0);
         public int speed;
-        static public int radius = 60;
+        static public int radius = 50;
         public bool currentOne = true;
+        
         public Asteroid(int speed)
         {
             this.speed = speed;
@@ -42,7 +43,7 @@ namespace MonogameProject3_Spaceship
             {
                 this.greenPosition.X = 1300;
                 this.position.Y = 0;
-                this.currentOne = true;
+                
             }
         }
     }

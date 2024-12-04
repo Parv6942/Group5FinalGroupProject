@@ -274,11 +274,6 @@ namespace MonogameProject3_Spaceship
 			ast2.updateAsteroid();
 			ast3.updateAsteroid();
 
-            if (ifHardMode)
-            {
-                gSword1.updateSword();
-            }
-
             // Get updated seconds count from Controller
             secondsElapsed = controller.updateTime(gameTime);
 
@@ -298,29 +293,28 @@ namespace MonogameProject3_Spaceship
                     }
                 }
             }
-            if (controller.didCollisionHappen(player, gSword1) && inGame && !player.getIsMoving())
+            if (ifHardMode)
             {
-                // Only decrement lives if the cooldown period has elapsed
-                if (gameTime.TotalGameTime - lastCollisionTime > collisionCooldown)
-                {
-                    playerLives--; // Go down a life
-                    lastCollisionTime = gameTime.TotalGameTime; // Update the last collision time
+                gSword1.updateSword();
 
-                    if (playerLives <= 0) // End game if lives zero
+                if (controller.didCollisionHappen(player, gSword1) && !player.getIsMoving())
+                {
+                    if (gameTime.TotalGameTime - lastCollisionTime > collisionCooldown)
                     {
-                        inGame = false;
+                        playerLives--;
+                        lastCollisionTime = gameTime.TotalGameTime;
+
+                        if (playerLives <= 0)
+                            inGame = false;
                     }
                 }
             }
+
 
             // Add Score if player passes stuff
             CheckAndScore(player, ast1, controller);
             CheckAndScore(player, ast2, controller);
             CheckAndScore(player, ast3, controller);
-            if (ifHardMode)
-            {
-                CheckAndScore(player, gSword1, controller);
-            }
         }
 
         // Draw() hands the menu and display it
@@ -413,7 +407,8 @@ namespace MonogameProject3_Spaceship
             {
                 Difficulty.Easy => 3,
                 Difficulty.Medium => 2,
-                Difficulty.Hard => 1
+                Difficulty.Hard => 1,
+                _ => 3
             };
 
             ifHardMode = selectedDifficulty switch
