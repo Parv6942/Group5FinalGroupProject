@@ -20,12 +20,12 @@ namespace MonogameProject3_Spaceship
         {
             get
             {
-                int size = 50; // Replace this with the actual size of the ship sprite
+                
                 return new Rectangle(
-                    (int)(position.X - size / 2), // Center X
-                    (int)(position.Y - size / 2), // Center Y
-                    size,                         // Width
-                    size                          // Height
+                    (int)(position.X - radius), 
+                    (int)(position.Y - radius),
+                    radius*2,
+                    radius*2
                 );
             }
         }

@@ -45,8 +45,9 @@ namespace MonogameProject3_Spaceship
         Texture2D asteroidSprite2;
         Texture2D asteroidSprite3;
         Texture2D spaceSprite;
-        Texture2D swordGreen1; 
-        
+        Texture2D swordGreen1;
+        Texture2D swordRed1;
+
 
 
         // Font assets for displaying text
@@ -73,7 +74,8 @@ namespace MonogameProject3_Spaceship
         Asteroid ast1 = new Asteroid(4);
         Asteroid ast2 = new Asteroid(6);
         Asteroid ast3 = new Asteroid(8);
-        Asteroid gSword1 = new Asteroid(10);
+        Asteroid gSword1 = new Asteroid(4);
+        Asteroid rSword1 = new Asteroid(4);
 
         // Flag for resetting asteroid positions when the game ends
         bool setBack = true;
@@ -144,7 +146,8 @@ namespace MonogameProject3_Spaceship
             timerFont = Content.Load<SpriteFont>("timerFont");
             scoreFont = Content.Load<SpriteFont>("timerFont");
             song = Content.Load<Song>("amalgam-2170071");
-            swordGreen1 = Content.Load<Texture2D>("GreenSword");
+            swordGreen1 = Content.Load<Texture2D>("GreenSwordc");
+            swordRed1 = Content.Load<Texture2D>("redSwordc");
 
             // Load thse gamefont and spaceSprite into the menu
             _menu = new Menu(gameFont, spaceSprite);
@@ -308,6 +311,20 @@ namespace MonogameProject3_Spaceship
                             inGame = false;
                     }
                 }
+
+                rSword1.updateRedSword();
+
+                if (controller.didCollisionHappenR(player, rSword1) && player.getIsMoving())
+                {
+                    if (gameTime.TotalGameTime - lastCollisionTime > collisionCooldown)
+                    {
+                        playerLives--;
+                        lastCollisionTime = gameTime.TotalGameTime;
+
+                        if (playerLives <= 0)
+                            inGame = false;
+                    }
+                }
             }
 
 
@@ -372,6 +389,7 @@ namespace MonogameProject3_Spaceship
             if (ifHardMode)
             {
                 _spriteBatch.Draw(swordGreen1, new Vector2(gSword1.greenPosition.X, gSword1.greenPosition.Y), Color.White);
+                _spriteBatch.Draw(swordRed1, new Vector2(rSword1.redPosition.X, rSword1.redPosition.Y), Color.White);
             }
 
             // Displaying Timer and Score
@@ -421,7 +439,8 @@ namespace MonogameProject3_Spaceship
 
             if (ifHardMode)
             {
-                gSword1 = new Asteroid(10);
+                gSword1 = new Asteroid(4);
+                rSword1 = new Asteroid(4);
             }
             setBack = true;
         }
