@@ -38,9 +38,9 @@ namespace MonogameProject3_Spaceship
         public void updateSword()
         {
             this.greenPosition.X -= this.speed;
-            if (this.position.X < -100)
+            if (this.greenPosition.X < -100)
             {
-                this.position.X = 1300;
+                this.greenPosition.X = 1300;
                 this.position.Y = 0;
                 this.currentOne = true;
             }

@@ -52,6 +52,11 @@ namespace MonogameProject3_Spaceship
             if (Vector2.Distance(player.position, ast.position) < distance) {
                 return true;
             }
+            
+            if (Vector2.Distance(player.position, ast.greenPosition) < distance)
+            {
+                return true;
+            }
             return false;
         }
         public bool didShipPast(Ship player, Asteroid ast)

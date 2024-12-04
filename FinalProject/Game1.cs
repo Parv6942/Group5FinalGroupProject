@@ -46,6 +46,7 @@ namespace MonogameProject3_Spaceship
         Texture2D asteroidSprite3;
         Texture2D spaceSprite;
         Texture2D swordGreen1; 
+        
 
 
         // Font assets for displaying text
@@ -72,7 +73,7 @@ namespace MonogameProject3_Spaceship
         Asteroid ast1 = new Asteroid(4);
         Asteroid ast2 = new Asteroid(6);
         Asteroid ast3 = new Asteroid(8);
-        Asteroid gSword1 = new Asteroid(1);
+        Asteroid gSword1 = new Asteroid(10);
 
         // Flag for resetting asteroid positions when the game ends
         bool setBack = true;
@@ -283,7 +284,7 @@ namespace MonogameProject3_Spaceship
 
 
             // Check for collision
-            if ((controller.didCollisionHappen(player, ast1) || controller.didCollisionHappen(player, ast2) || controller.didCollisionHappen(player, ast3) || controller.didCollisionHappen(player, gSword1)) && inGame)
+            if ((controller.didCollisionHappen(player, ast1) || controller.didCollisionHappen(player, ast2) || controller.didCollisionHappen(player, ast3)) && inGame)
             {
                 // Only decrement lives if the cooldown period has elapsed
                 if (gameTime.TotalGameTime - lastCollisionTime > collisionCooldown)
@@ -297,7 +298,20 @@ namespace MonogameProject3_Spaceship
                     }
                 }
             }
+            if (controller.didCollisionHappen(player, gSword1) && inGame && !player.getIsMoving())
+            {
+                // Only decrement lives if the cooldown period has elapsed
+                if (gameTime.TotalGameTime - lastCollisionTime > collisionCooldown)
+                {
+                    playerLives--; // Go down a life
+                    lastCollisionTime = gameTime.TotalGameTime; // Update the last collision time
 
+                    if (playerLives <= 0) // End game if lives zero
+                    {
+                        inGame = false;
+                    }
+                }
+            }
 
             // Add Score if player passes stuff
             CheckAndScore(player, ast1, controller);
@@ -363,7 +377,7 @@ namespace MonogameProject3_Spaceship
 			_spriteBatch.Draw(asteroidSprite3, new Vector2(ast3.position.X - Asteroid.radius, ast3.position.Y - Asteroid.radius), Color.White);
             if (ifHardMode)
             {
-                _spriteBatch.Draw(swordGreen1, new Vector2(gSword1.greenPosition.X, gSword1.greenPosition.Y), Color.White);
+                _spriteBatch.Draw(swordGreen1, new Vector2(gSword1.greenPosition.X - Asteroid.radius, gSword1.greenPosition.Y), Color.White);
             }
 
             // Displaying Timer and Score
@@ -412,7 +426,7 @@ namespace MonogameProject3_Spaceship
 
             if (ifHardMode)
             {
-                gSword1 = new Asteroid(1);
+                gSword1 = new Asteroid(10);
             }
             setBack = true;
         }

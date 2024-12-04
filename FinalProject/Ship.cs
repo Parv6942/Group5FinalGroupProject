@@ -14,7 +14,7 @@ namespace MonogameProject3_Spaceship
     {
         public Vector2 position = new Vector2(100, 100);
         int speed = 4;
-        int radius = 0;
+        int radius = 100;
         bool isMoiving = false;
         public void setRadius(int radius)
         {
