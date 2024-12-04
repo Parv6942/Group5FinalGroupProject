@@ -12,10 +12,23 @@ namespace MonogameProject3_Spaceship
 {
     internal class Ship
     {
-        public Vector2 position = new Vector2(100, 100);
+        public Vector2 position = new Vector2(50, 50);
         int speed = 4;
-        int radius = 0;
-        bool isMoiving = false;
+        int radius = 25;
+        bool isMoving = false;
+        public Rectangle Hitbox
+        {
+            get
+            {
+                
+                return new Rectangle(
+                    (int)(position.X - radius), 
+                    (int)(position.Y - radius),
+                    radius*2,
+                    radius*2
+                );
+            }
+        }
         public void setRadius(int radius)
         {
             this.radius = radius;
@@ -30,61 +43,34 @@ namespace MonogameProject3_Spaceship
 
         public bool getIsMoving() 
         {
-            return this.isMoiving;
+            return this.isMoving;
         }
         public void updateShip() {
+            Vector2 previousPosition = this.position;
+            float previousPositionX = this.position.X;
+            float previousPositionY = this.position.Y;
+
             //3// Move the player along X-axis using Keyboard   
             KeyboardState state = Keyboard.GetState();
             if (state.IsKeyDown(Keys.Left))
             {
                 this.position.X -= speed;
-                isMoiving = true;
             }
-            if (state.IsKeyUp(Keys.Left))
-            {
-                isMoiving = false;
-            }
-
             if (state.IsKeyDown(Keys.Right))
             {
                 this.position.X += speed;
-                isMoiving = true;
             }
-            if (state.IsKeyUp(Keys.Right))
-            {
-                isMoiving = false;
-            }
-
             //4// Move the player along X-axis using Keyboard  
             if (state.IsKeyDown(Keys.Up))
             {
                 this.position.Y -=speed ;
-                isMoiving = true;
             }
-            if (state.IsKeyUp(Keys.Up))
-            {
-                isMoiving = false;
-            }
-
             if (state.IsKeyDown(Keys.Down))
             {
                 this.position.Y +=speed ;
-                isMoiving = true;
             }
-            if (state.IsKeyUp(Keys.Down))
-            {
-                isMoiving = false;
-            }
-
-            if (state.IsKeyDown(Keys.Enter))
-            {
-                speed = 8;
-            }
-            if (state.IsKeyUp(Keys.Enter))
-            {
-                speed = 4;
-            }
-            
+            speed = state.IsKeyDown(Keys.Space) ? 8 : 4;
+            this.isMoving = (this.position.X != previousPositionX || this.position.Y != previousPositionY);
         }
     }
 }

@@ -54,6 +54,15 @@ namespace MonogameProject3_Spaceship
             }
             return false;
         }
+
+        public bool didCollisionHappenG(Ship player, Asteroid ast)
+        {
+            return player.Hitbox.Intersects(ast.Hitbox);
+        }
+        public bool didCollisionHappenR(Ship player, Asteroid ast)
+        {
+            return player.Hitbox.Intersects(ast.Hitbox2);
+        }
         public bool didShipPast(Ship player, Asteroid ast)
         {
             int playerRadius = player.getRadius();

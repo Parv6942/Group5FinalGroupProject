@@ -4,6 +4,7 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
+<<<<<<< HEAD
     <File>C:/Users/humza/OneDrive/Desktop/FinalProject/Group5FinalGroupProject/FinalProject/Content/amalgam-217007.wav</File>
     <File>C:/Users/humza/OneDrive/Desktop/FinalProject/Group5FinalGroupProject/FinalProject/Content/amalgam-2170071.mp3</File>
     <File>C:/Users/humza/OneDrive/Desktop/FinalProject/Group5FinalGroupProject/FinalProject/Content/asteroid.png</File>
@@ -12,8 +13,22 @@
     <File>C:/Users/humza/OneDrive/Desktop/FinalProject/Group5FinalGroupProject/FinalProject/Content/space.png</File>
     <File>C:/Users/humza/OneDrive/Desktop/FinalProject/Group5FinalGroupProject/FinalProject/Content/spaceFont.spritefont</File>
     <File>C:/Users/humza/OneDrive/Desktop/FinalProject/Group5FinalGroupProject/FinalProject/Content/timerFont.spritefont</File>
+=======
+    <File>C:/Users/willi/Documents/GitHub/Group5FinalGroupProject/FinalProject/Content/amalgam-217007.wav</File>
+    <File>C:/Users/willi/Documents/GitHub/Group5FinalGroupProject/FinalProject/Content/amalgam-2170071.mp3</File>
+    <File>C:/Users/willi/Documents/GitHub/Group5FinalGroupProject/FinalProject/Content/asteroid.png</File>
+    <File>C:/Users/willi/Documents/GitHub/Group5FinalGroupProject/FinalProject/Content/GreenSword.png</File>
+    <File>C:/Users/willi/Documents/GitHub/Group5FinalGroupProject/FinalProject/Content/GreenSwordc.png</File>
+    <File>C:/Users/willi/Documents/GitHub/Group5FinalGroupProject/FinalProject/Content/redSwordc.png</File>
+    <File>C:/Users/willi/Documents/GitHub/Group5FinalGroupProject/FinalProject/Content/ship.png</File>
+    <File>C:/Users/willi/Documents/GitHub/Group5FinalGroupProject/FinalProject/Content/space.png</File>
+    <File>C:/Users/willi/Documents/GitHub/Group5FinalGroupProject/FinalProject/Content/spaceFont.spritefont</File>
+    <File>C:/Users/willi/Documents/GitHub/Group5FinalGroupProject/FinalProject/Content/timerFont.spritefont</File>
+>>>>>>> Will
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

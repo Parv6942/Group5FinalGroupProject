@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<<<<<<< HEAD
   <SourceFile>C:/Users/humza/OneDrive/Desktop/FinalProject/Group5FinalGroupProject/FinalProject/Content/asteroid.png</SourceFile>
   <SourceTime>2024-11-26T17:34:42.8424668-05:00</SourceTime>
   <DestFile>C:/Users/humza/OneDrive/Desktop/FinalProject/Group5FinalGroupProject/FinalProject/Content/bin/DesktopGL/Content/asteroid.xnb</DestFile>
   <DestTime>2024-11-30T10:19:08.0474396-05:00</DestTime>
+=======
+  <SourceFile>C:/Users/willi/Documents/GitHub/Group5FinalGroupProject/FinalProject/Content/asteroid.png</SourceFile>
+  <SourceTime>2024-11-28T01:10:29.421535-05:00</SourceTime>
+  <DestFile>C:/Users/willi/Documents/GitHub/Group5FinalGroupProject/FinalProject/Content/bin/DesktopGL/Content/asteroid.xnb</DestFile>
+  <DestTime>2024-12-02T01:14:44.063444-05:00</DestTime>
+>>>>>>> Will
   <Importer>TextureImporter</Importer>
   <ImporterTime>2024-08-16T13:05:56-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

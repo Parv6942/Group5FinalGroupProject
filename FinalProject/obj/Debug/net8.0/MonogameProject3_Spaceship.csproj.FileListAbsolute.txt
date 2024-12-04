@@ -196,4 +196,9 @@ C:\Users\willi\Documents\GitHub\Group5FinalGroupProject\FinalProject\obj\Debug\n
 C:\Users\willi\Documents\GitHub\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\MonogameProject3_Spaceship.genruntimeconfig.cache
 C:\Users\willi\Documents\GitHub\Group5FinalGroupProject\FinalProject\obj\Debug\net8.0\ref\MonogameProject3_Spaceship.dll
 C:\Users\willi\Documents\GitHub\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\Content\GreenSword.xnb
+<<<<<<< HEAD
 C:\Users\humza\OneDrive\Desktop\FinalProject\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\Content\GreenSword.xnb
+=======
+C:\Users\willi\Documents\GitHub\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\Content\GreenSwordc.xnb
+C:\Users\willi\Documents\GitHub\Group5FinalGroupProject\FinalProject\bin\Debug\net8.0\Content\redSwordc.xnb
+>>>>>>> Will
