@@ -14,7 +14,7 @@ namespace MonogameProject3_Spaceship
         public enum Difficulty { Easy, Medium, Hard }
         private Difficulty selectedDifficulty = Difficulty.Easy; // Default difficulty
         private int playerLives; // Store player lives
-        private bool ifHardMode; // For Will (checks if hardmode selected)
+        public bool ifHardMode = false; // For Will (checks if hardmode selected)
         public int menuIndex = 0; // Index for difficulty selection
 
 
@@ -158,15 +158,12 @@ namespace MonogameProject3_Spaceship
         // handles the menu logic
         protected override void Update(GameTime gameTime)
         {
-            //if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
-            //    Exit();
-
-            // TODO: Add your update logic here
             // Get the current keyboard state
 
             if (ifHardMode && !dialogueManager.IsDialogueActive())
             {
                 dialogueManager.StartDialogue();
+                string debug = $"{isDialogueActive}";
             }
 
             if (dialogueManager.IsDialogueActive())
@@ -196,7 +193,7 @@ namespace MonogameProject3_Spaceship
                     if (keyboardState.IsKeyDown(Keys.Enter) && previousKeyboardState.IsKeyUp(Keys.Enter))
                     {
                         selectedDifficulty = (Difficulty)menuIndex;
-
+                        
                         // Set lives based on difficulty
                         playerLives = selectedDifficulty switch
                         {
@@ -213,6 +210,10 @@ namespace MonogameProject3_Spaceship
                             Difficulty.Hard => true,
                             _ => false
                         };
+
+
+                        string debug1 = $"Difficulty Selected: {selectedDifficulty}";
+                        string debug2 = $"Hard Mode: {ifHardMode}";
 
                         currentGameState = GameState.InGame; // Start the game
                     }
@@ -253,7 +254,16 @@ namespace MonogameProject3_Spaceship
             base.Update(gameTime);
         }
 
-        //UpdateGameplay handles the ship, asteroid, points gameplay and mechaincs
+        // to make code shorter
+        private void CheckAndScore(Ship player, Asteroid asteroid, Controller controller)
+        {
+            if (controller.didShipPast(player, asteroid) && asteroid.currentOne)
+            {
+                controller.playerScore++;
+                asteroid.currentOne = false;
+            }
+        }
+
         private void UpdateGamplay(GameTime gameTime)
         {
 			//3// Move the player along X-axis and Y-axis using Keyboard   
@@ -262,14 +272,18 @@ namespace MonogameProject3_Spaceship
 			ast1.updateAsteroid();
 			ast2.updateAsteroid();
 			ast3.updateAsteroid();
-            gSword1.updateAsteroid();
 
-			// Get updated seconds count from Controller
-			secondsElapsed = controller.updateTime(gameTime);
+            if (ifHardMode)
+            {
+                gSword1.updateSword();
+            }
+
+            // Get updated seconds count from Controller
+            secondsElapsed = controller.updateTime(gameTime);
 
 
             // Check for collision
-            if ((controller.didCollisionHappen(player, ast1) || controller.didCollisionHappen(player, ast2) || controller.didCollisionHappen(player, ast3)) && inGame)
+            if ((controller.didCollisionHappen(player, ast1) || controller.didCollisionHappen(player, ast2) || controller.didCollisionHappen(player, ast3) || controller.didCollisionHappen(player, gSword1)) && inGame)
             {
                 // Only decrement lives if the cooldown period has elapsed
                 if (gameTime.TotalGameTime - lastCollisionTime > collisionCooldown)
@@ -285,23 +299,15 @@ namespace MonogameProject3_Spaceship
             }
 
 
-            // Increment score if the player successfully dodges an asteroid
-			if (controller.didShipPast(player, ast1) && ast1.currentOne)
-			{
-				controller.playerScore++;
-				ast1.currentOne = false;
-			}
-			if (controller.didShipPast(player, ast2) && ast2.currentOne)
-			{
-				controller.playerScore++;
-				ast2.currentOne = false;
-			}
-			if (controller.didShipPast(player, ast3) && ast3.currentOne)
-			{
-				controller.playerScore++;
-				ast3.currentOne = false;
-			}
-		}
+            // Add Score if player passes stuff
+            CheckAndScore(player, ast1, controller);
+            CheckAndScore(player, ast2, controller);
+            CheckAndScore(player, ast3, controller);
+            if (ifHardMode)
+            {
+                CheckAndScore(player, gSword1, controller);
+            }
+        }
 
         // Draw() hands the menu and display it
         protected override void Draw(GameTime gameTime)
@@ -312,7 +318,7 @@ namespace MonogameProject3_Spaceship
                 // Get the current text to display, up to the current character index
                 string currentText = npcDialogues[currentDialogueIndex].Substring(0, currentCharacter);
 
-                Vector2 textPosition = new Vector2(400, 300);
+                Vector2 textPosition = new Vector2(400, 400);
                 _spriteBatch.Begin();
                 _spriteBatch.DrawString(gameFont, currentText, textPosition, Color.White);
                 _spriteBatch.End();
@@ -355,8 +361,10 @@ namespace MonogameProject3_Spaceship
 			_spriteBatch.Draw(asteroidSprite1, new Vector2(ast1.position.X - Asteroid.radius, ast1.position.Y - Asteroid.radius), Color.White);
 			_spriteBatch.Draw(asteroidSprite2, new Vector2(ast2.position.X - Asteroid.radius, ast2.position.Y - Asteroid.radius), Color.White);
 			_spriteBatch.Draw(asteroidSprite3, new Vector2(ast3.position.X - Asteroid.radius, ast3.position.Y - Asteroid.radius), Color.White);
-            _spriteBatch.Draw(swordGreen1, new Vector2(ast3.greenPosition.X - Asteroid.radius, ast3.greenPosition.Y - Asteroid.radius), Color.White);
-            //Hi
+            if (ifHardMode)
+            {
+                _spriteBatch.Draw(swordGreen1, new Vector2(gSword1.greenPosition.X, gSword1.greenPosition.Y), Color.White);
+            }
 
             // Displaying Timer and Score
             _spriteBatch.DrawString(timerFont, "Time: " + secondsElapsed, new Vector2(_graphics.PreferredBackBufferWidth / 2, 30), Color.White);
@@ -369,7 +377,6 @@ namespace MonogameProject3_Spaceship
             if (!inGame)
 			{
 				_spriteBatch.DrawString(gameFont, controller.gameEndScript(), new Vector2(_graphics.PreferredBackBufferWidth / 4 - 100, _graphics.PreferredBackBufferHeight / 2), Color.White);
-
 			}
 
 
@@ -403,6 +410,10 @@ namespace MonogameProject3_Spaceship
                 _ => false
             };
 
+            if (ifHardMode)
+            {
+                gSword1 = new Asteroid(1);
+            }
             setBack = true;
         }
         

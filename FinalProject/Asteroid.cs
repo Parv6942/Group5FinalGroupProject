@@ -33,7 +33,17 @@ namespace MonogameProject3_Spaceship
                 this.position.Y = random.Next(100, 900);
                 this.currentOne = true;
             }
+        }
 
+        public void updateSword()
+        {
+            this.greenPosition.X -= this.speed;
+            if (this.position.X < -100)
+            {
+                this.position.X = 1300;
+                this.position.Y = 0;
+                this.currentOne = true;
+            }
         }
     }
 }
